@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post
 permalink: /schedule/
 title: Schedule
 description: 
 nav: true
 nav_order: 2
+pretty_table: true
 ---
 
 
