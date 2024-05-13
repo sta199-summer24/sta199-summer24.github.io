@@ -16,4 +16,4 @@ Many thanks to [Dr. Mine &#199;etinkaya-Rundel](https://mine-cr.com/) for sharin
 
 | Week      | Day | Topic | Prepare | In-class Materials | Due Date | 
 | :-------: | :-------:  | :-------:  | :-------:  | :-------:  | :-------:  |
-| 1 | Thur, May 16 | Lec: Welcome to STA 199   | 📗 [r4ds - intro](https://r4ds.hadley.nz/intro.html) <br/> 📘 [ims - chp 1](https://openintro-ims2.netlify.app/01-data-hello) | 🖥️ [slides 00](/slides/00-welcome-199.html) , ⌨️ [ae 00](/ae/ae-00-unvotes.html) , 🖥️ [slides 01](/slides/01-meet-the-toolkit.html) , ⌨️ [ae 01](/ae/ae-01-meet-the-penguins.html) |  |
+| 1 | Thur, May 16 | Lec: Welcome to STA 199   | 📗 [r4ds - intro](https://r4ds.hadley.nz/intro.html) <br/> 📘 [ims - chp 1](https://openintro-ims2.netlify.app/01-data-hello) | 🖥️ [slides 00](/slides/00-welcome-199.html)<br/>⌨️ [ae 00](/ae/ae-00-unvotes.html)<br/>🖥️ [slides 01](/slides/01-meet-the-toolkit.html)<br/>⌨️ [ae 01](/ae/ae-01-meet-the-penguins.html) |  |
