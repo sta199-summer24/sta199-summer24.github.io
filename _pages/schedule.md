@@ -7,6 +7,14 @@ nav: true
 nav_order: 2
 ---
 
+
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+
+
+
  | Week | Day | Topic | Prepare | In-class Materials | 
 
 1 | "Thur |  May 16" | Lec: Welcome to STA 199 | "📗 [r4ds - intro](https://r4ds.hadley.nz/intro.html) <br>
