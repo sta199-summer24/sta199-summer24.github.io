@@ -8,10 +8,9 @@ nav_order: 2
 ---
 
 
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 
-
-
+| Left aligned | Center aligned | Right aligned |
+| :----------- | :------------: | ------------: |
+| Left 1       |    center 1    |       right 1 |
+| Left 2       |    center 2    |       right 2 |
+| Left 3       |    center 3    |       right 3 |
