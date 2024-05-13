@@ -20,6 +20,13 @@ Learn to explore, visualize, and analyze data to understand natural phenomena, i
 - Lab: M/Thu 2:45 - 4:00 PM at Perkins LINK 087 (Classroom 3)
 - Office Hours: TBD
 
+<h3> Links </h3>
+
+- [Canvas](https://canvas.duke.edu/courses/33182)
+- [Github classroom](https://github.com/sta199-summer24)
+- [Rstudio container](https://cmgr.oit.duke.edu/containers)
+- [Ed discussion board](https://edstem.org/us/courses/59071/discussion/)
+- [Gradescope](https://canvas.duke.edu/courses/33182/external_tools/181)
 
 
 
