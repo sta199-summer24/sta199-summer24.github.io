@@ -1,6 +1,6 @@
 ---
 layout: about
-title: STA 199
+title: Home
 permalink: /
 subtitle: Intro to Data Science and Statistical Thinking
 
