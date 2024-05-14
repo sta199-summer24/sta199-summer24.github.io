@@ -23,15 +23,13 @@ By the end of the semester, you will...
 This course is comprised of a variety of activities and materials to help you gain a better understanding of data science.
 All course materials can be found on the course webpage [sta199-summer24.github.io/](https://sta199-summer24.github.io/). A typical week is as follows:
 
-| :---------- | :------ |
 | Sunday      | Review Monday's pre-lecture materials <br/> Previous Thursday's lab due |
 | Monday      | Live lecture and lab <br/> Review Tuesday's pre-lecture materials |
 | Tuesday     | Live lecture <br/> Monday's AE due    |
 | Wednesday   | Review Thursday's pre-lecture materials  <br/> Tuesday's AE due       |
 | Thursday    | Live lecture and lab <br/> Monday's lab due |
 | Friday      | Thursday's AE due |
-| :---------- | :------ |
-
+{:.mbtablestyle}
 
 This schedule will be modified slightly for weeks including exams. All assignments are due at 11:59 PM. No late work is accepted. 
 
@@ -40,11 +38,11 @@ This schedule will be modified slightly for weeks including exams. All assignmen
 
 - <b> Pre-lecture materials: </b> Prior to lecture, watch and read all materials in the `Prepare` column of the class [schedule](https://sta199-summer24.github.io/schedule/).
 
-- <b> Live lecture and labs: </b> Lecture and lab attendence is required. Both are designed to be interactive where you gain understanding through directly applying new concepts and problem-solving with your peers. As such, a laptop (or similar) is required for all lectures and labs. 
+- <b> Live lecture and labs: </b> Lecture and lab attendance is required. Both are designed to be interactive where you gain understanding through directly applying new concepts and problem-solving with your peers. As such, a laptop (or similar) is required for all lectures and labs. 
 
 - <b> Application exercises: </b> Application exercises (AEs) are short, individual assignments that you will work on during live lecture. They are due the day after lecture at 11:59 PM. AEs will be graded based on a good-faith effort has been made in attempting all parts. AEs are submitted by pushing all work to your Github repository. Successful on-time completion of at least 80 % of AEs will result in full credit. 
 
-- <b> Labs: </b> Lab attendence is required. Lab assignments are due 3 days after class at 11:59 PM. No late work will be accepted. To accomodate extenuating circumstances, <b> the lowest lab grade will be dropped at the end of the semester</b>. 
+- <b> Labs: </b> Lab attendance is required. Lab assignments are due 3 days after class at 11:59 PM. No late work will be accepted. To accommodate extenuating circumstances, <b> the lowest lab grade will be dropped at the end of the semester</b>. 
 
 - <b> Exams: </b> There are two exams in this course. Each exam will include an in-class component (with a cheat sheet) and an open-note take-home component. The content of the exam will be related to the content in videos and reading assignments, lectures, application exercises, and labs. More detail about the exams will be given during the semester.
 
@@ -55,7 +53,6 @@ This schedule will be modified slightly for weeks including exams. All assignmen
 
 The final course grade will be determined as follows:
 
-| :---------- | :------ |
 | Category | Percentage |
 | :------- | :--------- |
 | Labs     | 30 %       |
@@ -63,13 +60,11 @@ The final course grade will be determined as follows:
 | Exam 1   | 20 %       |
 | Exam 2   | 20 %       |
 | Application Exercises | 5 % |
-| Lab attendence |  5 % |
-| :---------- | :------ |
+| Lab attendance |  5 % |
 
 
 The final letter grade will be determined based on the following thresholds:
 
-| :---------- | :------ |
 | Letter Grade | Final Course Grade |
 | :--------------|:-------------------|
 | A            | \>= 93             |
@@ -84,11 +79,10 @@ The final letter grade will be determined based on the following thresholds:
 | D            | 63 - 66.99         |
 | D-           | 60 - 62.99         |
 | F            | \< 60              |
-| :---------- | :------ |
 
 
 
-<h2> Regrade Requests </h2>
+<h4> Regrade Requests </h4>
 
 Regrade requests must be submitted in person to Dr. Bersson within a 3 days of when an assignment is returned. To submit a regrade request, print out the assignment and include a cover sheet identifying
 1. the problem in dispute
@@ -112,11 +106,11 @@ The assignment grading schemes are designed to provide flexibility while also he
 
 Students who miss a class due to a scheduled varsity trip, religious holiday, or short-term illness should fill out the appropriate form. These excused absences do not excuse you from work; it will still be your responsibility to submit relevant assignments in accordance with the deadline. If you have a personal or family emergency or health condition that affects your ability to participate in class, you should contact your academic dean's office. More information about this procedure may be found on the Personal Emergencies page or provided by your academic dean.
 
-<h2> Project Participation </h2>
+<h4> Project Participation </h4>
 
 Owing to the nature of participation and teamwork exercises, there will be no late work accepted for project-related assignments, and the project assignment grades are not eligible to be dropped. 
 
-<h2> Exams </h2>
+<h4> Exams </h4>
 
 Exam dates cannot be changed and no make-up exams will be given. If you must miss an exam, the absence must be officially excused by your Academic Dean prior to the date the exam is due. If your absence is excused, the missing exam grade will be imputed at the end of the semester based on your performance on the other exam.
 
