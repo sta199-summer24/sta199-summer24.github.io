@@ -25,8 +25,8 @@ All course materials can be found on the course webpage [sta199-summer24.github.
 
 | Day of Week |         |
 | :---------- | :------ |
-| Sunday      | Review Monday's pre-lecture materials |
-| Monday      | Live lecture and lab <br/> Review Tuesday's pre-lecture materials <br/> Previous Thursday's lab due|
+| Sunday      | Review Monday's pre-lecture materials <br/> Previous Thursday's lab due |
+| Monday      | Live lecture and lab <br/> Review Tuesday's pre-lecture materials |
 | Tuesday     | Live lecture <br/> Monday's AE due    |
 | Wednesday   | Review Thursday's pre-lecture materials  <br/> Tuesday's AE due       |
 | Thursday    | Live lecture and lab <br/> Monday's lab due |
