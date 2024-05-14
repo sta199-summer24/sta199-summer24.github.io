@@ -3,6 +3,7 @@ title: "Lab 0 - Hello, World and STA 199!"
 categories: "Lab"
 execute:
   eval: false
+format: pdf
 ---
 
 This lab will set you up for the computing workflow and give you an opportunity to introduce yourselves to each other and the teaching team.

@@ -1,6 +1,6 @@
 ---
 title: "Lab 7 - Modeling II"
-categories: "Lab"
+format: pdf
 ---
 
 # Introduction

@@ -1,6 +1,6 @@
 ---
 title: "Lab 3 - Data tidying and joining"
-categories: "Lab"
+format: pdf
 ---
 
 # Introduction
@@ -320,8 +320,9 @@ Then, in a few sentences, describe the patterns you observe in the plot, particu
 -   The plot should have an appropriate title (and optionally a subtitle).
 -   Plot should be customized in at least one way – you could use a different than default color scale, or different than default theme, or some other customization.
 -   If your legend has labels that are too long, you can try moving the legend to the bottom and stack the labels vertically. *Hint:* The `legend.position` and `legend.direction` arguments of the `theme()` functions will be useful.
+-   Edit the code chunk options so the code chunk is evaluated!
 
-```{r}
+```{r, eval = FALSE}
 ggplot(...) +
   ... +
   theme(

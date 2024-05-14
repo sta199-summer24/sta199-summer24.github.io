@@ -1,5 +1,6 @@
 ---
 title: "Lab 2 - Data wrangling"
+format: pdf
 editor_options: 
   chunk_output_type: console
 ---

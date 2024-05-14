@@ -1,6 +1,6 @@
 ---
 title: "Lab 5 - Potpourri"
-categories: "Lab"
+format: pdf
 ---
 
 ```{r}

@@ -1,6 +1,6 @@
 ---
 title: "Lab 4 - Web scraping and ethics"
-categories: "Lab"
+format: pdf
 ---
 
 # Introduction
@@ -135,6 +135,8 @@ In this case, we can use the following steps:
 -   `str_remove()` to remove the character(s) once or `str_remove_all()` to remove all occurences of the character(s) we don't want
 
 ```{r}
+library(stringr)
+
 name |>
   str_remove_all("\r")
 url |>
