@@ -27,3 +27,10 @@ social: false # includes social icons at the bottom of the page
 - [Rstudio container](https://cmgr.oit.duke.edu/containers)
 - [Ed discussion board](https://edstem.org/us/courses/59071/discussion/)
 - [Gradescope](https://canvas.duke.edu/courses/33182/external_tools/181)
+
+<h3> Textbooks </h3>
+
+-   [R for Data Science, 2e](https://r4ds.hadley.nz/), Wickham, Çetinkaya-Rundel, Grolemund.
+    O'Reilly, 2nd edition, 2023.
+    
+-   [Introduction to Modern Statistics](https://openintro-ims.netlify.app/), Çetinkaya-Rundel, Hardin. OpenIntro Inc., 2nd Edition, 2023.
