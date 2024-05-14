@@ -1,7 +1,6 @@
 ---
 title: "Second to last AE"
-categories: 
-  - Application exercise
+format: pdf
 ---
 
 Make a change, any change, to this document.

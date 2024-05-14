@@ -1,5 +1,6 @@
 ---
 title: "AE 04: NYC flights + data wrangling"
+format: pdf
 ---
 
 ```{r}

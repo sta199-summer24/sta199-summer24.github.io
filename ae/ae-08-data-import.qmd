@@ -1,5 +1,6 @@
 ---
 title: "AE 08: Data import"
+format: pdf
 ---
 
 ## Packages

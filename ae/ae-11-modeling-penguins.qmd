@@ -1,7 +1,6 @@
 ---
 title: "AE 11: Modelling penguins"
-categories: 
-  - Application exercise
+format: pdf
 ---
 
 In this application exercise we will be studying penguins.

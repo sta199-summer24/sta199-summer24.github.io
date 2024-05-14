@@ -1,5 +1,6 @@
 ---
 title: "Modelling fish"
+format: pdf
 ---
 
 For this application exercise, we will work with data on fish.

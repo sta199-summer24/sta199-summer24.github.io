@@ -1,5 +1,6 @@
 ---
 title: "AE 03: Duke Forest + data visualization"
+format: pdf
 ---
 
 ```{r}

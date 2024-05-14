@@ -1,7 +1,6 @@
 ---
 title: "Building a spam filter"
-categories: 
-  - Application exercise
+format: pdf
 ---
 
 In this application exercise, we will

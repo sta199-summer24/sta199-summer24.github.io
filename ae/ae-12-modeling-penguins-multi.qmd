@@ -1,7 +1,6 @@
 ---
 title: "AE 12: Modeling penguins with multiple predictors"
-categories: 
-  - Application exercise
+format: pdf
 ---
 
 In this application exercise we will be studying penguins.

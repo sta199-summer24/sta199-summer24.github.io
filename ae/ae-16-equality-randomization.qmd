@@ -1,7 +1,6 @@
 ---
 title: "Equality"
-categories: 
-  - Application exercise
+format: pdf
 fig-width: 6
 fig-asp: 0.618
 ---
