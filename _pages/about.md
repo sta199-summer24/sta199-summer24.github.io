@@ -27,6 +27,3 @@ social: false # includes social icons at the bottom of the page
 - [Rstudio container](https://cmgr.oit.duke.edu/containers)
 - [Ed discussion board](https://edstem.org/us/courses/59071/discussion/)
 - [Gradescope](https://canvas.duke.edu/courses/33182/external_tools/181)
-
-
-
