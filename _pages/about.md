@@ -30,6 +30,8 @@ social: false # includes social icons at the bottom of the page
 
 <h3> Textbooks </h3>
 
+All textbooks for this course are freely available online. 
+
 -   [R for Data Science, 2e](https://r4ds.hadley.nz/), Wickham, Çetinkaya-Rundel, Grolemund.
     O'Reilly, 2nd edition, 2023.
     
