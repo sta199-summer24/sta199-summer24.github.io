@@ -5,6 +5,7 @@ title: Syllabus
 description: 
 nav: true
 nav_order: 3
+pretty_table: true
 ---
 
 <h3> Learning Objectives </h3>
