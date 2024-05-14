@@ -15,8 +15,8 @@ Many thanks to [Dr. Mine &#199;etinkaya-Rundel](https://mine-cr.com/) for sharin
 
 
 | Day | Topic | Prepare | In-class Materials | Due Date | 
-| :-------  | :-------  | :-------  | :-------  | :-------:  |
-| Thur, May 16 | Lec: Welcome to STA 199   | 📗 [r4ds - intro](https://r4ds.hadley.nz/intro.html) <br/> 📘 [ims - chp 1](https://openintro-ims2.netlify.app/01-data-hello) | 🖥️ [slides 00](/slides/00-welcome-199.html) <br/> ⌨️ [ae 00](../ae/ae-00-unvotes.pdf) <br/> 🖥️ [slides 01](/slides/01-meet-the-toolkit.html) <br/> ⌨️ [ae 01](/ae/ae-01-meet-the-penguins.html) |  |
+| :-------  | :-------  | :-------  | :-------  | :-------  |
+| Thur, May 16 | Lec: Welcome to STA 199   | 📗 [r4ds - intro](https://r4ds.hadley.nz/intro.html) <br/> 📘 [ims - chp 1](https://openintro-ims2.netlify.app/01-data-hello) | 🖥️ [slides 00](/slides/00-welcome-199.html) <br/> ⌨️ [ae 00](../ae/ae-00-unvotes.pdf) <br/> 🖥️ [slides 01](/slides/01-meet-the-toolkit.html) <br/> ⌨️ [ae 01](/ae/ae-01-meet-the-penguins.pdf) |  |
 |  | Lab 0: Hello, World and STA 199! |  | 💻 [lab 0](/labs/lab-0.pdf) | due 5/19 by 11:59 PM |
 | Mon, May 20 | Lec: Data visualization | 📗 [r4ds - chp 1](https://r4ds.hadley.nz/data-visualize)  <br/>  🎥 [Data and visualization](https://youtu.be/FddF4b_GuTI)  <br/>  🎥 [Visualising data with ggplot2](https://youtu.be/s2NF2J36ljE)  <br/>  📘 [ims - chp 4](https://openintro-ims2.netlify.app/04-explore-categorical)  <br/>  📘 [ims - chp 5](https://openintro-ims2.netlify.app/05-explore-numerical)  <br/>  🎥 [Visualizing numerical data](https://youtu.be/waBabVTI8ec)  <br/>  🎥 [Visualizing categorical data](https://youtu.be/21h3rEO8k2E) | 🖥️ [slides 02](/slides/02-grammar-of-graphics.html)  <br/>  ⌨️ [ae 02](/ae/ae-02-bechdel-dataviz.pdf)  <br/>  🖥️ [slides 03](/slides/03-visualizing-data.html) |  |
 |  | Lab 1: Data visualization | 📗 [r4ds - chp 2](https://r4ds.hadley.nz/workflow-basics) | 💻 [lab 1](/labs/lab-1.pdf) | due 5/23 by 11:59 PM |
