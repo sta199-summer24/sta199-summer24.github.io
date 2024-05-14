@@ -29,7 +29,6 @@ All course materials can be found on the course webpage [sta199-summer24.github.
 | Wednesday   | Review Thursday's pre-lecture materials  <br/> Tuesday's AE due       |
 | Thursday    | Live lecture and lab <br/> Monday's lab due |
 | Friday      | Thursday's AE due |
-{:.mbtablestyle}
 
 This schedule will be modified slightly for weeks including exams. All assignments are due at 11:59 PM. No late work is accepted. 
 
@@ -40,7 +39,7 @@ This schedule will be modified slightly for weeks including exams. All assignmen
 
 - <b> Live lecture and labs: </b> Lecture and lab attendance is required. Both are designed to be interactive where you gain understanding through directly applying new concepts and problem-solving with your peers. As such, a laptop (or similar) is required for all lectures and labs. 
 
-- <b> Application exercises: </b> Application exercises (AEs) are short, individual assignments that you will work on during live lecture. They are due the day after lecture at 11:59 PM. AEs will be graded based on a good-faith effort has been made in attempting all parts. AEs are submitted by pushing all work to your Github repository. Successful on-time completion of at least 80 % of AEs will result in full credit. 
+- <b> Application exercises: </b> Application exercises (AEs) are short, individual assignments that you will work on during live lecture. They are due the day after lecture at 11:59 PM. AEs will be graded based on a good-faith effort has been made in attempting all parts. AEs are submitted by pushing all work to your Github repository. Successful on-time completion of at least 80% of AEs will result in full credit. 
 
 - <b> Labs: </b> Lab attendance is required. Lab assignments are due 3 days after class at 11:59 PM. No late work will be accepted. To accommodate extenuating circumstances, <b> the lowest lab grade will be dropped at the end of the semester</b>. 
 
@@ -55,12 +54,12 @@ The final course grade will be determined as follows:
 
 | Category | Percentage |
 | :------- | :--------- |
-| Labs     | 30 %       |
-| Project  | 20 %       |
-| Exam 1   | 20 %       |
-| Exam 2   | 20 %       |
-| Application Exercises | 5 % |
-| Lab attendance |  5 % |
+| Labs     | 30%       |
+| Project  | 20%       |
+| Exam 1   | 20%       |
+| Exam 2   | 20%       |
+| Application Exercises | 5% |
+| Lab attendance |  5% |
 
 
 The final letter grade will be determined based on the following thresholds:
