@@ -1,7 +1,7 @@
 ---
 title: "Proposal"
 subtitle: "Milestone 2"
-categories: "Project"
+format: pdf
 ---
 
 # Goals

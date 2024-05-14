@@ -1,7 +1,7 @@
 ---
 title: "Working collaboratively"
 subtitle: "Milestone 1"
-categories: "Project"
+format: pdf
 ---
 
 Data science is a collaborative discipline.
