@@ -52,6 +52,9 @@ This schedule will be modified slightly for weeks including exams. All assignmen
 
 The final course grade will be determined as follows:
 
+
+
+
 | Category | Percentage |
 | :------- | :--------- |
 | Labs     | 30%       |
@@ -62,10 +65,16 @@ The final course grade will be determined as follows:
 | Lab attendance |  5% |
 
 
+
+
+
 The final letter grade will be determined based on the following thresholds:
 
+
+
+
 | Letter Grade | Final Course Grade |
-| :--------------|:-------------------|
+| :---------- | :------------- |
 | A            | \>= 93             |
 | A-           | 90 - 92.99         |
 | B+           | 87 - 89.99         |
@@ -78,6 +87,8 @@ The final letter grade will be determined based on the following thresholds:
 | D            | 63 - 66.99         |
 | D-           | 60 - 62.99         |
 | F            | \< 60              |
+
+
 
 
 
