@@ -23,7 +23,6 @@ By the end of the semester, you will...
 This course is comprised of a variety of activities and materials to help you gain a better understanding of data science.
 All course materials can be found on the course webpage [sta199-summer24.github.io/](https://sta199-summer24.github.io/). A typical week is as follows:
 
-| Day of Week |         |
 | :---------- | :------ |
 | Sunday      | Review Monday's pre-lecture materials <br/> Previous Thursday's lab due |
 | Monday      | Live lecture and lab <br/> Review Tuesday's pre-lecture materials |
@@ -31,6 +30,7 @@ All course materials can be found on the course webpage [sta199-summer24.github.
 | Wednesday   | Review Thursday's pre-lecture materials  <br/> Tuesday's AE due       |
 | Thursday    | Live lecture and lab <br/> Monday's lab due |
 | Friday      | Thursday's AE due |
+| :---------- | :------ |
 
 
 This schedule will be modified slightly for weeks including exams. All assignments are due at 11:59 PM. No late work is accepted. 
@@ -55,6 +55,7 @@ This schedule will be modified slightly for weeks including exams. All assignmen
 
 The final course grade will be determined as follows:
 
+| :---------- | :------ |
 | Category | Percentage |
 | :------- | :--------- |
 | Labs     | 30 %       |
@@ -63,12 +64,14 @@ The final course grade will be determined as follows:
 | Exam 2   | 20 %       |
 | Application Exercises | 5 % |
 | Lab attendence |  5 % |
+| :---------- | :------ |
 
 
 The final letter grade will be determined based on the following thresholds:
 
+| :---------- | :------ |
 | Letter Grade | Final Course Grade |
-|--------------|--------------------|
+| :--------------|:-------------------|
 | A            | \>= 93             |
 | A-           | 90 - 92.99         |
 | B+           | 87 - 89.99         |
@@ -81,6 +84,7 @@ The final letter grade will be determined based on the following thresholds:
 | D            | 63 - 66.99         |
 | D-           | 60 - 62.99         |
 | F            | \< 60              |
+| :---------- | :------ |
 
 
 
@@ -159,6 +163,8 @@ To uphold the Duke Community Standard, students agree:
 - 	I will not lie, cheat, or steal in my academic endeavors.
 - 	I will conduct myself honorably in all my endeavors; and
 - 	I will act if the Standard is compromised.
+
+
 Regardless of course delivery format, it is the responsibility of the student to understand and follow Duke policies regarding academic integrity, (e.g., completing one’s own work, following proper citations of sources, and adhering to guidance around group work, and more). Ignoring these requirements is a violation of the Duke Community Standard. Any questions and/or concerns regarding academic integrity can be directed to the Office or Student Conduct and Community Standards at conduct@duke.edu.
 
 
