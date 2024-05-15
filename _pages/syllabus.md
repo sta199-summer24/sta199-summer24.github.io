@@ -81,8 +81,10 @@ The final letter grade will be determined based on the following thresholds:
 <h4> Regrade Requests </h4>
 
 Regrade requests must be submitted in person to Dr. Bersson within a 3 days of when an assignment is returned. To submit a regrade request, print out the assignment and include a cover sheet identifying
-1. the problem in dispute
+1. the problem in dispute, and
 2. the rubric item you believe was mis-marked.
+
+
 Regrade requests will be considered if there was an error in the grade calculation or if you feel a correct answer was mistakenly marked as incorrect. Requests to dispute the number of points deducted for an incorrect response will not be considered. Note that by submitting a regrade request, the entire question will be graded which could potentially result in losing points.
 
 
