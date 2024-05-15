@@ -53,18 +53,14 @@ This schedule will be modified slightly for weeks including exams. All assignmen
 The final course grade will be determined as follows:
 
 
-
-
 | Category | Percentage |
-| Labs     | 30%       |
-| Project  | 20%       |
-| Exam 1   | 20%       |
-| Exam 2   | 20%       |
-| Application Exercises | 5% |
-| Lab attendance |  5% |
-
-
-
+| :-------  | -------:  |
+| Labs | 30 |
+| Project | 20 |
+| Exam 1 | 20 |
+| Exam 2 | 20 |
+| Application Exercise | 5 |
+| Lab attendance | 5 |
 
 
 The final letter grade will be determined based on the following thresholds:
