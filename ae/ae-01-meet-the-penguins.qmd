@@ -1,6 +1,8 @@
 ---
 title: "AE 01: Meet the penguins"
-format: pdf
+format: 
+  html:
+      self-contained: true
 ---
 
 For this application exercise, we'll use the **tidyverse** and **palmerpenguins** packages.
