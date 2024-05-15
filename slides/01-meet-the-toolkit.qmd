@@ -1,31 +1,25 @@
 ---
 title: "Meet the toolkit"
 subtitle: "Lecture 1"
-date: "January 16, 2024"
-format: revealjs
+date: "May 16, 2024"
+format: 
+  revealjs:
+    self-contained: true
 ---
 
 # Warm-up
-
-## Announcements
-
--   If you have not yet completed the Getting to know you survey, please do so asap!
-
--   If you have not yet accepted the invite to join the course GitHub Organization (I'm looking at 41 of you as of this morning!), please do so asap!
-
--   Office hours + locations linked at <https://sta199-s24.github.io/course-team.html>, come say hi to me or any of the TAs!
-
-# From last time...
 
 ## Course homepage
 
 Let's take a tour!
 
+[sta199-summer24.github.io/](https://sta199-summer24.github.io/)
+
 ## Collaboration policy
 
 -   Only work that is clearly assigned as team work should be completed collaboratively.
 
--   Homeworks must be completed individually.
+-   Labs must be completed individually.
     You may **not** directly share answers / code with others, however you are welcome to discuss the problems in general and ask for advice.
 
 -   Exams must be completed individually.
@@ -81,7 +75,7 @@ Ask if you're not sure if something violates a policy!
 
 4.  Do the lab.
 
-5.  Don’t procrastinate – at least on a weekly basis!
+5.  Don’t procrastinate! 
 
 # Course toolkit
 
@@ -91,7 +85,7 @@ Ask if you're not sure if something violates a policy!
 ::: {.column width="50%"}
 **Course operation**
 
--   Materials: [sta199-s24.github.io](https://sta199-s24.github.io/)
+-   Materials: [sta199-summer24.github.io](https://sta199-summer24.github.io/)
 -   Submission: Gradescope
 -   Discussion: Ed Discussion
 -   Gradebook: Canvas
@@ -202,25 +196,15 @@ Source: [Modern Dive](https://moderndive.com/1-getting-started.html).
 ## Tour: R + RStudio {.smaller}
 
 ::: columns
-::: {.column width="50%"}
 ::: demo
-**Option 1:**
+**AE 01:**
 
 Sit back and enjoy the show!
-:::
+
+To find the AE, go to the [course GitHub organization](https://github.com/sta199-summer24) and find [`ae-01-meet-the-penguins`](https://github.com/sta199-summer24/ae-01-penguins).
+
 :::
 
-::: {.column width="50%"}
-::: appex
-**Option 2:**
-
-Clone the corresponding application exercise repo and follow along.
-
-{{< fa laptop >}} `ae-01-meet-the-penguins`
-
-Go to the [course GitHub organization](https://github.com/sta199-s24) and clone [`ae-01-meet-the-penguins`](https://github.com/sta199-s24/ae-01-penguins) to [your container](https://cmgr.oit.duke.edu/containers).
-:::
-:::
 :::
 
 ## Tour recap: R + RStudio
@@ -297,25 +281,18 @@ dataframe$var_name
 ## Tour: Quarto {.smaller}
 
 ::: columns
-::: {.column width="50%"}
 ::: demo
 **Option 1:**
 
 Sit back and enjoy the show!
-:::
+
 :::
 
-::: {.column width="50%"}
-::: appex
-**Option 2:**
 
-Clone the corresponding application exercise repo (if you haven't yet done so) and follow along.
 
-{{< fa laptop >}} `ae-01-meet-the-penguins`
+To find the AE, go to the [course GitHub organization](https://github.com/sta199-summer24) and find [`ae-01-meet-the-penguins`](https://github.com/sta199-summer24/ae-01-penguins).
 
-Go to the [course GitHub organization](https://github.com/sta199-s24) and clone [`ae-01-meet-the-penguins`](https://github.com/sta199-s24/ae-01-penguins) to [your container](https://cmgr.oit.duke.edu/containers).
-:::
-:::
+
 :::
 
 ## Tour recap: Quarto
@@ -330,41 +307,6 @@ The environment of your Quarto document is separate from the Console!
 
 Remember this, and expect it to bite you a few times as you're learning to work with Quarto!
 
-## Environments
-
-::: columns
-::: {.column width="50%"}
-First, run the following in the console:
-
-```{r eval = FALSE}
-x <- 2
-x * 3
-```
-
-<br>
-
-::: {.question .fragment}
-All looks good, eh?
-:::
-:::
-
-::: {.column .fragment width="50%"}
-Then, add the following in an R chunk in your Quarto document
-
-```{r}
-#| eval: false
-
-x * 3
-```
-
-<br>
-
-::: {.question .fragment}
-What happens?
-Why the error?
-:::
-:::
-:::
 
 ## How will we use Quarto?
 
@@ -372,6 +314,4 @@ Why the error?
 -   You'll always have a template Quarto document to start with
 -   The amount of scaffolding in the template will decrease over the semester
 
-## What's with all the hexes?
 
-![](images/hexes.jpeg){fig-alt="Hex logos for many packages" fig-align="center"}

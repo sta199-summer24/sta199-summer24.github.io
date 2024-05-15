@@ -19,11 +19,11 @@ library(countdown)
 
 ::: columns
 ::: {.column width="50%"}
-Dr. Betsy Bersson
-
-Old Chem 223B
+Dr. Betsy Bersson, Old Chem 223B
 
 TA: Shuo Wang
+
+Office hours: TBD
 :::
 
 :::
@@ -166,6 +166,7 @@ All linked from the course website:
     -   Lab assignments x 7
     -   Exams x 2
     -   Term project presented in the last lab session
+-   See the [syllabus](https://sta199-summer24.github.io/syllabus/) for a typical week's schedule
 
 ## Exams {.smaller}
 
@@ -191,7 +192,7 @@ If you can’t take the exams on these dates, you should drop this class.
 
 -   Presentation and write-up
 
--   Presentations in the last lab
+-   Presentations in the last lab (June 24)
 
 -   Interim deadlines, peer review on content, peer evaluation for team contribution
 
