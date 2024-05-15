@@ -56,7 +56,6 @@ The final course grade will be determined as follows:
 
 
 | Category | Percentage |
-| :------- | :--------- |
 | Labs     | 30%       |
 | Project  | 20%       |
 | Exam 1   | 20%       |
@@ -74,7 +73,6 @@ The final letter grade will be determined based on the following thresholds:
 
 
 | Letter Grade | Final Course Grade |
-| :---------- | :------------- |
 | A            | \>= 93             |
 | A-           | 90 - 92.99         |
 | B+           | 87 - 89.99         |
