@@ -1,9 +1,9 @@
 ---
 title: "AE 04: NYC flights + data wrangling"
 subtitle: "Suggested answers"
-categories: 
-  - Application exercise
-  - Answers
+format:
+  html:
+    self-contained: true
 ---
 
 ::: callout-important

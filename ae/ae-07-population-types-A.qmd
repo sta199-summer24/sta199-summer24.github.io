@@ -1,9 +1,9 @@
 ---
 title: "AE 07: Types and classes and populations"
 subtitle: "Suggested answers"
-categories: 
-  - Application exercise
-  - Answers
+format:
+  html:
+    self-contained: true
 ---
 
 ::: callout-important

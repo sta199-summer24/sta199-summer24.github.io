@@ -1,6 +1,8 @@
 ---
 title: "AE 08: Data import"
-format: pdf
+format:
+  html:
+    self-contained: true
 ---
 
 ## Packages

@@ -1,9 +1,9 @@
 ---
 title: "AE 10: Modelling fish"
 subtitle: "Suggested answers"
-categories: 
-  - Application exercise
-  - Answers
+format:
+  html:
+    self-contained: true
 fig-width: 7
 fig-asp: 0.618
 ---

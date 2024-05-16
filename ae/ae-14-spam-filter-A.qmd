@@ -1,8 +1,8 @@
 ---
 title: "Building a spam filter"
-categories: 
-  - Application exercise
-  - Answers
+format:
+  html:
+    self-contained: true
 editor: visual
 editor_options: 
   chunk_output_type: console
@@ -16,8 +16,7 @@ In this application exercise, we will
 
 To illustrate logistic regression, we will build a spam filter from email data.
 
-The data come from incoming emails in David Diez's (one of the authors of OpenIntro textbooks) Gmail account for the first three months of 2012.
-All personally identifiable information has been removed.
+The data come from incoming emails in David Diez's (one of the authors of OpenIntro textbooks) Gmail account for the first three months of 2012. All personally identifiable information has been removed.
 
 ```{r}
 #| label: load-packages
@@ -41,9 +40,7 @@ The variables we'll use in this analysis are
 
 # Exploratory data analysis
 
-Let's start by taking a look at our data.
-Create an density plot to investigate the relationship between `spam` and `exclaim_mess`.
-Additionally, calculate the mean number of exclamation points for both spam and non-spam emails.
+Let's start by taking a look at our data. Create an density plot to investigate the relationship between `spam` and `exclaim_mess`. Additionally, calculate the mean number of exclamation points for both spam and non-spam emails.
 
 ```{r}
 ggplot(email, aes(x = exclaim_mess, fill = spam)) + 
@@ -56,8 +53,7 @@ email |>
 
 # Linear model -- a false start
 
-Suppose we try using a linear model to describe the relationship between the number of exclamation points and whether an email is spam.
-Write up a linear model that models spam by exclamation marks.
+Suppose we try using a linear model to describe the relationship between the number of exclamation points and whether an email is spam. Write up a linear model that models spam by exclamation marks.
 
 ```{r}
 linear_reg() |>
@@ -116,8 +112,7 @@ We use logistic instead of linear regression.
 
 ## Exercise 2
 
-What is the probability the email is spam if it contains 10 exclamation points?
-Answer the question using the `predict()` function.
+What is the probability the email is spam if it contains 10 exclamation points? Answer the question using the `predict()` function.
 
 We can use the predict function in R to produce the probability as well.
 
@@ -130,14 +125,11 @@ predict(log_fit, ep_10, type = "prob")
 
 ## Exercise 3
 
-We have the probability an email is spam, but ultimately we want to use the probability to classify an email as spam or not spam.
-Therefore, we need to set a **decision-making threshold**, such that an email is classified as spam if the predicted probability is greater than the threshold and not spam otherwise.
+We have the probability an email is spam, but ultimately we want to use the probability to classify an email as spam or not spam. Therefore, we need to set a **decision-making threshold**, such that an email is classified as spam if the predicted probability is greater than the threshold and not spam otherwise.
 
-Suppose you are a data scientist working on a spam filter.
-You must determine how high the predicted probability must be before you think it would be reasonable to call it spam and put it in the junk folder (which the user is unlikely to check).
+Suppose you are a data scientist working on a spam filter. You must determine how high the predicted probability must be before you think it would be reasonable to call it spam and put it in the junk folder (which the user is unlikely to check).
 
-**Your turn:** What are some trade offs you would consider as you set the decision-making threshold?
-Discuss with your neighbor.
+**Your turn:** What are some trade offs you would consider as you set the decision-making threshold? Discuss with your neighbor.
 
 *Answers will vary.*
 

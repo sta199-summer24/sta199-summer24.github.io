@@ -1,6 +1,8 @@
 ---
 title: "AE 15: Modeling houses in Duke Forest"
-format: pdf
+format:
+  html:
+    self-contained: true
 ---
 
 In this application exercise, we will

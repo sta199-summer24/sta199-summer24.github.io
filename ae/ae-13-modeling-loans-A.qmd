@@ -1,15 +1,13 @@
 ---
 title: "Modelling loan interest rates"
 subtitle: "Suggested answers"
-categories: 
-  - Application exercise
-  - Answers
+format:
+  html:
+    self-contained: true
 editor: visual
 ---
 
-In this application exercise we will be studying loan interest rates.
-The dataset is one you've come across before in your reading -- the dataset about loans from the peer-to-peer lender, Lending Club, from the **openintro** package.
-We will use **tidyverse** and **tidymodels** for data exploration and modeling, respectively.
+In this application exercise we will be studying loan interest rates. The dataset is one you've come across before in your reading -- the dataset about loans from the peer-to-peer lender, Lending Club, from the **openintro** package. We will use **tidyverse** and **tidymodels** for data exploration and modeling, respectively.
 
 ```{r}
 #| label: load-packages
@@ -55,9 +53,7 @@ glimpse(loans)
 
 # Get to know the data
 
--   **Your turn:** What is a typical interest rate in this dataset?
-    What are some attributes of a typical loan and a typical borrower.
-    Give yourself no more than 5 minutes for this exploration and share 1-2 findings.
+-   **Your turn:** What is a typical interest rate in this dataset? What are some attributes of a typical loan and a typical borrower. Give yourself no more than 5 minutes for this exploration and share 1-2 findings.
 
 ```{r}
 #| label: explore-loans
@@ -214,8 +210,7 @@ Different.
 
 ## Choosing a model
 
-Rule of thumb: **Occam's Razor** - Don't overcomplicate the situation!
-We prefer the *simplest* best model.
+Rule of thumb: **Occam's Razor** - Don't overcomplicate the situation! We prefer the *simplest* best model.
 
 ```{r}
 #| label: glance
@@ -226,11 +221,9 @@ glance(rate_util_home_int_fit)
 
 -   **Review:** What is R-squared? What is adjusted R-squared?
 
-R-squared is the percent variability in the response that is explained by our model.
-(Can use when models have same number of variables for model selection)
+R-squared is the percent variability in the response that is explained by our model. (Can use when models have same number of variables for model selection)
 
-Adjusted R-squared is similar, but has a penalty for the number of variables in the model.
-(Should use for model selection when models have different numbers of variables).
+Adjusted R-squared is similar, but has a penalty for the number of variables in the model. (Should use for model selection when models have different numbers of variables).
 
 -   **Question:** Based on the adjusted $R^2$s of these two models, which one do we prefer?
 

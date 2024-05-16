@@ -1,6 +1,8 @@
 ---
 title: "AE 07: Types and classes and populations"
-format: pdf
+format:
+  html:
+    self-contained: true
 ---
 
 ## Packages

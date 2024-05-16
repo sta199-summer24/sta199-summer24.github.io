@@ -1,6 +1,8 @@
 ---
 title: "AE 11: Modelling penguins"
-format: pdf
+format:
+  html:
+    self-contained: true
 ---
 
 In this application exercise we will be studying penguins.

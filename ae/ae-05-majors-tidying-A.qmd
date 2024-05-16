@@ -1,9 +1,9 @@
 ---
 title: "AE 05: Tidying StatSci Majors"
 subtitle: "Suggested answers"
-categories: 
-  - Application exercise
-  - Answers
+format:
+  html:
+    self-contained: true
 ---
 
 ::: callout-important

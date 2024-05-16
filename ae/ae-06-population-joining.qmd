@@ -1,6 +1,8 @@
 ---
 title: "AE 06: Joining country populations with continents"
-format: pdf
+format:
+  html:
+    self-contained: true
 ---
 
 ## Goal

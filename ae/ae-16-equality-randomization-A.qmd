@@ -1,9 +1,9 @@
 ---
 title: "AE 16: Equality"
 subtitle: "Suggested answers"
-categories: 
-  - Application exercise
-  - Suggested answers
+format:
+  html:
+    self-contained: true
 fig-width: 6
 fig-asp: 0.618
 ---

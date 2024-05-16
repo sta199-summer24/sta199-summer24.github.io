@@ -1,6 +1,8 @@
 ---
 title: "Modelling fish"
-format: pdf
+format:
+  html:
+    self-contained: true
 ---
 
 For this application exercise, we will work with data on fish.
