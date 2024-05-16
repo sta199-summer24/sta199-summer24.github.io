@@ -23,12 +23,13 @@ By the end of the semester, you will...
 This course is comprised of a variety of activities and materials to help you gain a better understanding of data science.
 All course materials can be found on the course webpage [sta199-summer24.github.io/](https://sta199-summer24.github.io/). A typical week is as follows:
 
-| Sunday      | Review Monday's pre-lecture materials <br/> Previous Thursday's lab due |
+| Sunday      | Review Monday's pre-lecture materials <br/> Previous Thursday's lab due <br/> AEs from the previous week due |
 | Monday      | Live lecture and lab <br/> Review Tuesday's pre-lecture materials |
-| Tuesday     | Live lecture <br/> Monday's AE due    |
-| Wednesday   | Review Thursday's pre-lecture materials  <br/> Tuesday's AE due       |
+| Tuesday     | Live lecture  |
+| Wednesday   | Review Thursday's pre-lecture materials   |
 | Thursday    | Live lecture and lab <br/> Monday's lab due |
-| Friday      | Thursday's AE due |
+| Friday      |  |
+| Saturday    |  |
 
 This schedule will be modified slightly for weeks including exams. All assignments are due at 11:59 PM. No late work is accepted. 
 
@@ -39,7 +40,7 @@ This schedule will be modified slightly for weeks including exams. All assignmen
 
 - <b> Live lecture and labs: </b> Lecture and lab attendance is required. Both are designed to be interactive where you gain understanding through directly applying new concepts and problem-solving with your peers. As such, a laptop (or similar) is required for all lectures and labs. 
 
-- <b> Application exercises: </b> Application exercises (AEs) are short, individual assignments that you will work on during live lecture. They are due the day after lecture at 11:59 PM. AEs will be graded based on a good-faith effort has been made in attempting all parts. AEs are submitted by pushing all work to your Github repository. Successful on-time completion of at least 80% of AEs will result in full credit. 
+- <b> Application exercises: </b> Application exercises (AEs) are short, individual assignments that you will work on during live lecture. They are due at the end of the week, on Sunday evening at 11:59 PM. To stay on top of the material in class, it is recommended that you complete and submit all AEs the same day they are covered in lecture. AEs will be graded based on a good-faith effort has been made in attempting all parts. AEs are submitted by pushing all work to your Github repository. Successful on-time completion of at least 80% of AEs will result in full credit. 
 
 - <b> Labs: </b> Lab attendance is required. Lab assignments are due 3 days after class at 11:59 PM. No late work will be accepted. To accommodate extenuating circumstances, <b> the lowest lab grade will be dropped at the end of the semester</b>. 
 
