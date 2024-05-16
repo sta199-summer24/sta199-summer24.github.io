@@ -1,7 +1,9 @@
 ---
 title: "Proposal"
 subtitle: "Milestone 2"
-format: pdf
+format:
+  html:
+    self-contained: true
 ---
 
 # Goals

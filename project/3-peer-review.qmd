@@ -1,7 +1,9 @@
 ---
 title: "Peer review"
 subtitle: "Milestone 3"
-format: pdf
+format:
+  html:
+    self-contained: true
 execute:
   echo: false
 ---

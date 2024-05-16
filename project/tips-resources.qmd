@@ -1,6 +1,8 @@
 ---
 title: "Project tips + resources"
-format: pdf
+format:
+  html:
+    self-contained: true
 ---
 
 The project is very open ended.
