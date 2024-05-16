@@ -9,7 +9,7 @@ pretty_table: true
 
 
 
-Please read this document in its entirety! It will tell you everything you need to know regarding expectations of the project. More tips and resources are available [here](../project/tips-resources.html).
+Please read this document in its entirety! It will tell you everything you need to know regarding expectations of the project. More tips and resources are available [here](project/tips-resources.html).
 
 <h3> Introduction </h3>
 
