@@ -1,7 +1,9 @@
 ---
 title: "Write-up and presentation"
 subtitle: "Milestone 4"
-format: pdf
+format:
+  html:
+    self-contained: true
 ---
 
 # Write-up
