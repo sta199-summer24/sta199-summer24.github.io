@@ -1,6 +1,8 @@
 ---
 title: "Lab 3 - Data tidying and joining"
-format: pdf
+format: 
+  html:
+    self-contained: true
 ---
 
 # Introduction

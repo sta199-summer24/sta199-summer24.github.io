@@ -1,6 +1,9 @@
 ---
-title: "Lab 5 - Potpourri"
+title: "Lab Potpourri"
 categories: "Lab"
+format: 
+  html:
+    self-contained: true
 ---
 
 ```{r}

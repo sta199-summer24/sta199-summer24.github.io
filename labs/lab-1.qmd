@@ -1,6 +1,8 @@
 ---
 title: "Lab 1 - Data visualization"
-format: pdf
+format: 
+  html:
+    self-contained: true
 ---
 
 # Introduction
