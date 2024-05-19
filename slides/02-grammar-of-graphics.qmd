@@ -1,11 +1,23 @@
 ---
 title: "Grammar of graphics"
 subtitle: "Lecture 2"
-date: "January 18, 2024"
-format: revealjs
+date: "May 20, 2024"
+format: 
+  revealjs:
+    self-contained: true
 ---
 
 # Warm up
+
+## Announcements
+
+-   Don't be intimidated! Anyone can code!
+
+-   If you have not yet accepted the invite to join the course GitHub Organization, please do so asap!
+
+-   Office hours + locations are now linked at <https://sta199-summer24.github.io/>. Please let me know if you aren't able to attend any of them.
+
+
 
 ```{r}
 #| echo: false
@@ -13,34 +25,27 @@ format: revealjs
 library(countdown)
 ```
 
-## While you wait...
 
-**Questions from the prepare materials?**
-
-```{=html}
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
 ## Announcements
 
--   Lab 1 on Monday – go to your assigned lab
+-   Lab 1 after this class.
 -   Catch up with the prepare materials
+-   AEs should be submitted by midnight on Sunday. To "submit", commit and push at least once to your `ae` repo for each application exercise this week.
 
 ## From the survey {.smaller}
 
--   Almost half of the class mentioned being nervous about coding – you're not alone!
+-   More than half of the class mentioned being nervous about coding – you're not alone!
     💙
 
 -   A good number of students mentioned being nervous about being new to stats + data science – you're also not alone!
     💜
 
--   Visibility of text on slides: Cranked up font size!
-    💛
 
 -   About exams: No coding on the in class (time-limited) exam + there will be practice exams
 
 -   About teams: Peer evaluations + milestones throughout semester
 
--   Grading criteria: Scale of 0-4 for each exercise on lab + more details in lab instructions
+-   Grading criteria: Scale of 0-5 for each exercise on lab + more details in lab instructions
 
 -   Hardware: Code running on university containers
 
@@ -108,7 +113,7 @@ library(countdown)
 ::: demo
 **Just one option for now:**
 
-Sit back and enjoy the show!
+Sit back and enjoy the show! Remember you can access our github classroom through the [course website](https://sta199-summer24.github.io/).
 :::
 
 # Data visualization
@@ -119,9 +124,7 @@ Sit back and enjoy the show!
 ::: {.column width="60%"}
 Discuss the following for the visualization.
 
-```{=html}
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
+
 ```{r}
 #| echo: false
 
@@ -137,7 +140,7 @@ countdown(minutes = 4, left = 0, color_text = "#325b74")
 ## `ae-02-bechdel-dataviz` {.smaller}
 
 ::: appex
--   Go to the course [GitHub org](https://github.com/sta199-f22-1) and find your `ae` repo (repo name will be suffixed with your GitHub name).
+-   Go to the course [GitHub org](https://github.com/orgs/sta199-summer24) and find your `ae` repo (repo name will be suffixed with your GitHub name).
 -   Clone the repo in your container, open the Quarto document in the repo, and follow along and complete the exercises.
 -   Render, commit, and push your edits by the AE deadline (end of this week)
 :::
@@ -150,10 +153,11 @@ countdown(minutes = 4, left = 0, color_text = "#325b74")
 
 ```{r}
 #| eval: false
+#| echo: true
 
 ggplot(DATA, aes(x = X-VAR, y = Y-VAR, ...)) +
   geom_XXX()
 ```
-
+-   Lots of `geom_XXX()` options: [ggplot2.tidyverse.org/reference/](https://ggplot2.tidyverse.org/reference/)!
 -   Aesthetic attributes of a geometries (color, size, transparency, etc.) can be **map**ped to variables in the data or **set** by the user, e.g. `color = binary` vs. `color = "pink"`.
 -   Use `facet_wrap()` when faceting (creating small multiples) by one variable and `facet_grid()` when faceting by two variables.

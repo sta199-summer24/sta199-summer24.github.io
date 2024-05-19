@@ -47,7 +47,7 @@ By the end of the lab, you will...
 
 ### Clone the repo & start new RStudio project
 
--   Go to the course organization at [github.com/sta199-s24](https://github.com/sta199-s24) organization on GitHub.
+-   Go to the course organization at [github.com/sta199-summer24](https://github.com/sta199-summer24) organization on GitHub.
     Click on the repo with the prefix **lab-1**.
     It contains the starter documents you need to complete the lab.
 
