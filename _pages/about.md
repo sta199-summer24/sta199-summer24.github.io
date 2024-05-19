@@ -18,7 +18,9 @@ social: false # includes social icons at the bottom of the page
 - TA: [Shuo Wang](https://scholars.duke.edu/person/shuo.wang717)
 - Lecture: M/Tu/Thu 12:30 - 2:35 PM at Perkins LINK 087 (Classroom 3)
 - Lab: M/Thu 2:45 - 4:00 PM at Perkins LINK 087 (Classroom 3)
-- Office Hours: TBD
+- Office Hours:
+  - M/T 5:00-6:00 PM at Old Chem 223B (EB)
+  - W 5:15-7:15 PM at Old Chem 203B (SW)
 
 <h3> Links </h3>
 
