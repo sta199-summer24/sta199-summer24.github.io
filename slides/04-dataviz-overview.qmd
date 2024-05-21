@@ -23,11 +23,15 @@ execute:
     
 -   [📘 ms - chp 5](https://openintro-ims2.netlify.app/05-explore-numerical) is particularly useful for Lab 1.
 
+-   AE 2 solutions posted.
+
 ## Questions {.smaller}
 
 -   How detailed should my notes be when doing the preparation reading?
 
 -   How to fix: code/text cut off when Rendering to PDF.
+
+-   Useful function: View() function.
 
 # Visualizing various types of data
 
