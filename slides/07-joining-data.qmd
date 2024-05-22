@@ -1,48 +1,20 @@
 ---
 title: "Joining data"
 subtitle: "Lecture 7"
-date: "February 6, 2024"
+date: "May 23, 2024"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
+    self-contained: true
+    footer: "[🔗 sta199-summer24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/59071/discussion/)"
 editor_options: 
   chunk_output_type: console
+execute: 
+  echo: true
 ---
 
-# Warm up
 
-```{r}
-#| echo: false
 
-library(countdown)
-```
-
-## While you wait for class to begin...
-
--   Go to your `ae` repo, click *Pull* to get today's application exercise to get ready for later.
-
--   Questions from the prepare materials?
-
-    ```{=html}
-    <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-    ```
-
-## Announcements
-
--   Exam 1 in class next week on Thursday – cheat sheet (1 page, both sides, hand-written or typed, must be prepared by you)
--   Exam 1 take home starts after class on Thursday, due at 8 am on Monday (open resources, internet, etc., closed to other humans)
--   Next week in lab: Exam 1 review – come with questions!
--   No new lab assigned next week during exam
-
-## Study tips for the exam
-
--   Go over lecture materials and application exercises
--   Review labs and feedback you've received so far
--   Do the exercises at the end of readings from both books
--   Do the exam review over (to be posted on Friday)
--   Go to lab on Monday with questions
-
-## Questions from last time {.smaller}
+## Questions from last semester {.smaller}
 
 **Is there a limit to a tibble size?**
 
@@ -51,11 +23,11 @@ However when you print it, it will only print the first 10 rows and the columns 
 
 If you want to see more rows and columns, you can
 
--   open it in the data viewer with `view(df)`
+-   open it in the data viewer with `View(df)`
 
 -   explicitly print more rows with, e.g., `df |> print(n = 25)`
 
--   explicitly `select()` or `relocate()` columns
+-   explicitly `select()` columns
 
 ## Options for a tibble {.smaller}
 
@@ -91,7 +63,7 @@ midwest |>
 ```
 :::
 
-## From last time: pivoting {.smaller}
+## Recap: pivoting {.smaller}
 
 ::: incremental
 -   Data sets can't be labeled as *wide* or *long* but they can be made *wider* or *longer* for a certain analysis that requires a certain format
