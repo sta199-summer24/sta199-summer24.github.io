@@ -1,45 +1,32 @@
 ---
 title: "Tidying data"
 subtitle: "Lecture 6"
-date: "February 1, 2024"
+date: "May 23, 2024"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730/discussion/4241121)"
+    self-contained: true
+    footer: "[🔗 sta199-summer24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/59071/discussion/)"
 editor_options: 
   chunk_output_type: console
+execute: 
+  echo: true
 ---
 
-# Warm up
+## Let's pick up from last class...
 
-```{r}
-#| echo: false
-
-library(countdown)
-```
-
-## While you wait for class to begin...
-
--   Go to your `ae` repo, click *Pull* to get today's application exercise to get ready for later.
-
--   Questions from the prepare materials?
-
-    ```{=html}
-    <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-    ```
-
-## Announcements
-
--   Lab 2 due Monday, 8 am
-
-# From last time: Application exercise
-
-## `ae-04-flights-wrangling`
+Back to AE-04
 
 ::: appex
 -   Go to the project navigator in RStudio (top right corner of your RStudio window) and open the project called `ae`.
 
+-   If there are any uncommitted files, commit them, and then click **Pull**.
+
 -   Open the file called `ae-04-flights-wrangling.qmd` and render it.
+
+-   When you're finished, don't forget to **render** your PDF, **stage** changes, **commit** with a message, and **push** to Github.
 :::
+
+
 
 ## Recap: pipe {.smaller}
 
@@ -260,15 +247,12 @@ statsci
 
 ## Let's plan! {.smaller}
 
-::: question
+
+
 Take a look at the plot we aim to make and sketch the data frame we need to make the plot.
 Determine what each row and each column of the data frame should be.
 *Hint:* We need data to be in columns to map to `aes`thetic elements of the plot.
-:::
 
-```{=html}
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
 
 # Application exercise
 
