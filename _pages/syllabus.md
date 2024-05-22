@@ -118,7 +118,6 @@ Exam dates cannot be changed and no make-up exams will be given. If you must mis
 
 If you are having trouble completing assignments or understanding the materials, please consult with me about appropriate course preparation and readiness strategies as needed. Either send me an email or visit office hours describing the personal or academic difficulties you are facing. I may also direct you to other resources on campus. The [Academic Resource Center](https://arc.duke.edu/about-us/) (ARC) offers services to support students academically during their undergraduate careers at Duke. The ARC can provide support with time management, academic skills and strategies, course-specific tutoring, ADHD/LD coaching, and more. ARC services are available free to any Duke undergraduate students, studying any discipline. Contact: (919) 684-5917 or theARC@duke.edu.
 
-If you have read this far, email Dr. Bersson a summer plan you are most excited for to earn 5 points extra credit to be applied to lab assignments.
 
 
 <h3> Diversity and Inclusion </h3>
