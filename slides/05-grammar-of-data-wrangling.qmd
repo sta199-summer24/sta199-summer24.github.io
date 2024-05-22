@@ -1,31 +1,73 @@
 ---
 title: "Grammar of data wrangling"
 subtitle: "Lecture 5"
-date: "January 30, 2024"
+date: "May 21, 2024"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730/discussion/4223179)"
+    self-contained: true
+    footer: "[🔗 sta199-summer24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/59071/discussion/)"
 editor_options: 
   chunk_output_type: console
+execute: 
+  echo: true
 ---
-
-# Warm up
 
 ```{r}
 #| echo: false
 
-library(countdown)
+library(tidyverse)
+
+bechdel <- read_csv("https://sta199-s24.github.io/data/bechdel.csv")
+
 ```
 
-## While you wait for class to begin...
+## Sneak preview...
 
--   Go to your `ae` repo, click *Pull* to get today's application exercise to get ready for later.
+<br> <br>
 
--   Questions from the prepare materials?
+::: hand
+to today's data wrangling pipelines...
+:::
 
-    ```{=html}
-    <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-    ```
+## Median ROI
+
+```{r}
+#| label: median-roi
+#| code-line-numbers: "|2"
+
+bechdel |>
+  summarize(median_roi = median(roi, na.rm = TRUE))
+```
+
+## Median ROI by test result
+
+```{r}
+#| label: median-roi-test
+#| code-line-numbers: "|2|3"
+
+bechdel |>
+  group_by(clean_test) |>
+  summarize(median_roi = median(roi, na.rm = TRUE))
+```
+
+## ROI by test result – zoom in {.smaller}
+
+::: question
+What does this plot say about return-on-investment on movies that pass the Bechdel test?
+:::
+
+```{r}
+#| label: roi-test-binary-box-zoom-vline
+#| fig-width: 9
+#| fig-asp: 0.4
+
+ggplot(bechdel, aes(x = roi, y = clean_test, color = binary)) +
+  geom_boxplot() +
+  coord_cartesian(xlim = c(0, 15)) +
+  geom_vline(xintercept = 4.21, linetype = "dashed")
+```
+
+
 
 ## Asking good questions {.smaller}
 
@@ -46,14 +88,12 @@ library(countdown)
 
     -   Do **not** put spaces in the code-chunk `label`s.
 
--   Render, commit, and push regularly.
+-   Render (i.e. re-create the PDF), stage, commit, and push regularly.
 
     -   Think about it like clicking to save regularly as you type a report.
 :::
 
-## Lab 1
 
-![](images/lab-1-commits.png){fig-align="center"}
 
 # Data frames and `tibble`s
 
@@ -115,63 +155,16 @@ head(flights)
 ```
 :::
 
-## `tibble` vs. data frame
+## `tibble` vs. data frame, or, FYI
 
 ::: incremental
 -   **tibble**: an opinionated version of the `R` data frame
 -   All tibbles are data frames, but not all data frames are tibbles!
 -   Two main differences between a tibble and a data frame:
     -   Printing
-    -   Stricter subsetting
+    -   Stricter subsetting (NAs)
 :::
 
-## Printing {.smaller}
-
-::: panel-tabset
-## `tibble`
-
-Display first 10 rows and all of the columns that fit on the screen will display, along with the type of each column.
-
-```{r}
-#| label: tibble-print
-
-flights
-```
-
-## `data.frame`
-
-(Attempt to) display all of the data, or die (crash) tryin (if the dataset is too large)!
-
-```{r}
-#| label: data-frame-print
-
-cars
-```
-:::
-
-## Stricter subsetting
-
-::: panel-tabset
-## `tibble`
-
-Warning + `NULL` if variable not found.
-
-```{r}
-#| label: tibble-subset
-
-flights$apple
-```
-
-## `data.frame`
-
-Only `NULL` if variable not found.
-
-```{r}
-#| label: data-frame-subset
-
-cars$apple
-```
-:::
 
 # Data wrangling with `dplyr`
 
@@ -189,11 +182,17 @@ Primary package in the tidyverse for data wrangling
 :::
 
 ::: {.column width="50%"}
-[Cheat sheet](https://rstudio.github.io/cheatsheets/html/data-transformation.html)
+[dplyr Cheat sheet](https://rstudio.github.io/cheatsheets/html/data-transformation.html)
 
 [![](images/dplyr-cheat-sheet.png)](https://rstudio.github.io/cheatsheets/html/data-transformation.html)
 :::
 :::
+
+## Also, ggplot2 cheatsheet
+
+[ggplot2 Cheat sheet](https://rstudio.github.io/cheatsheets/data-visualization.pdf)
+
+
 
 ## Row operations
 
@@ -349,6 +348,8 @@ flights |>                  # <1>
 -   If there are any uncommitted files, commit them, and then click **Pull**.
 
 -   Open the file called `ae-04-flights-wrangling.qmd` and render it.
+
+-   When you're finished, don't forget to **render** your PDF, **stage** changes, **commit** with a message, and **push** to Github.
 :::
 
 ## Recap: pipe {.smaller}
