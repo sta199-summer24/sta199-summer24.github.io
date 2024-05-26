@@ -1,13 +1,14 @@
 ---
 title: "Data types and classes"
 subtitle: "Lecture 8"
-date: "February 8, 2024"
+date: "May 28, 2024"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
+    self-contained: true
+    footer: "[🔗 sta199-summer24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/59071/discussion/)"
+execute: 
+  echo: true
 ---
-
-# Warm up
 
 ```{r}
 #| echo: false
@@ -15,19 +16,28 @@ format:
 
 library(countdown)
 library(tidyverse)
+library(ggthemes)
+ggplot2::theme_set(theme_gray(base_size = 16))
 ```
 
-## While you wait for class to begin...
+## Announcements
 
--   Go to your `ae` repo, click *Pull* to get today's application exercise to get ready for later.
+-   Exam 1 in class next week on Tuesday – cheat sheet (1 page, both sides, hand-written or typed, must be prepared by you)
+-   Exam 1 take home starts after class on Tuesday, due at 8 am on Friday (open resources, internet, etc., closed to other humans)
+-   Next class: Exam 1 review – come with questions!
 
--   Questions from the prepare materials?
+## Study tips for the exam
 
-    ```{=html}
-    <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-    ```
+-   Go over lecture materials and application exercises
+-   Review labs and feedback you've received so far
+-   Do the exercises at the end of readings from both books
+-   Do the exam review over
+-   Come to class and office hours with questions!
 
-# Questions from last time
+
+
+
+# Questions from last semester
 
 ## **Pivoting data** {.smaller}
 

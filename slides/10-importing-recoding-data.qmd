@@ -1,15 +1,18 @@
 ---
 title: "Importing and recoding data"
 subtitle: "Lecture 10"
-date: "February 20, 2024"
+date: "June 3, 2024"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
+    self-contained: true
+    footer: "[🔗 sta199-summer24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/59071/discussion/)"
+execute: 
+  echo: true
 editor_options: 
   chunk_output_type: console
 ---
 
-# Warm up
+
 
 ```{r}
 #| echo: false
@@ -21,20 +24,8 @@ library(ggthemes)
 ggplot2::theme_set(theme_gray(base_size = 16))
 ```
 
-## While you wait for class to begin...
 
-Questions from prepare materials?
 
-```{=html}
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
-
-## Announcements
-
--   If you missed lab yesterday, get in touch with your team ASAP!
-    Read over the team contract they developed and sign it.
-
--   Start thinking about the datasets you'll include in your proposal.
 
 ## Project workflow preview
 
@@ -52,7 +43,7 @@ and a brief demo!
 
 ## Project grading
 
--   Outlined at <https://sta199-s24.github.io/project/description.html#grading>.
+-   Outlined at <https://sta199-summer24.github.io/project/>.
 
 -   Each milestone has points associated with it.
 
