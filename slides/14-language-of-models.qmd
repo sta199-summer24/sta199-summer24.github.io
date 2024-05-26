@@ -1,15 +1,17 @@
 ---
 title: "The language of models"
 subtitle: "Lecture 14"
-date: "March 5, 2024"
+date: "June 4, 2024"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
+    self-contained: true
+    footer: "[🔗 sta199-summer24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/59071/discussion/)"
+execute: 
+  echo: true
 editor_options: 
   chunk_output_type: console
 ---
 
-# Warm up
 
 ```{r}
 #| echo: false
@@ -20,28 +22,7 @@ library(tidyverse)
 ggplot2::theme_set(theme_gray(base_size = 16))
 ```
 
-## While you wait for class to begin...
 
-::: nonincremental
-Any questions from prepare materials?
-:::
-
-```{=html}
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
-## Announcements
-
--   TEAMMATES survey to provide feedback to your teammates deadline extended to tonight (Tuesday, 3/5) till midnight
--   Lab 5 due upon return from Spring Break, 8 am on Monday as usual -- help will be available on Ed over the break (though a bit more sporadically)
--   Monday after Spring Break: All team members must be in lab to work on project proposal
-
-## Questions from last time
-
-> Are there universal standards for ethical data scraping?
-
-. . .
-
-> How will we be tested on data science ethics?
 
 ## Goals
 
