@@ -1,15 +1,17 @@
 ---
 title: "Data science ethics"
 subtitle: "Lecture 13"
-date: "February 29, 2024"
+date: "June 4, 2024"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
+    self-contained: true
+    footer: "[🔗 sta199-summer24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/59071/discussion/)"
+execute: 
+  echo: true
 editor_options: 
   chunk_output_type: console
 ---
 
-# Warm up
 
 ```{r}
 #| echo: false
@@ -20,41 +22,8 @@ library(tidyverse)
 ggplot2::theme_set(theme_gray(base_size = 16))
 ```
 
-## While you wait for class to begin...
 
-::: nonincremental
-Any questions from prepare materials?
-:::
 
-```{=html}
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
-## Announcements
-
--   Fill out TEAMMATES survey to provide feedback to your teammates bu Sunday night (and to let us know how things are going)
--   Submit AE 09 (the R script and the Quarto document) by Sunday night
--   Submit Lab 4 by Monday morning
-
-## Questions from last time
-
-> How do you do that keyboard shortcut where you like drag down text selecting?
-
-. . .
-
-> How do you know when to clean extra space after text if you cannot specifically see the spaces?
-
-. . .
-
-> Will there be a curve for the test?
-
-## Guidelines and best practices for using Chat GPT {.smaller}
-
--   Do [**not**]{.underline} just copy-paste the prompt – for appropriate academic conduct, for your own learning, and for getting to better results faster
--   Engineer the prompt until the response starts to look like code you're learning in the course
--   If the response is not correct, ask for a correction
--   If the response doesn't follow the guidelines, ask for a correction
--   Do not just copy-paste code from Chat GPT responses, run it line-by-line and edit as needed
--   Watch out for clear mistakes in the response: do not keep loading packages that are already loaded, use the base pipe `|>`, use tidyverse-based code, etc.
 
 ## Today
 
@@ -92,11 +61,7 @@ What does the visualization, published by [Reuters](http://static5.businessinsid
 countdown(minutes = 3, left = 0, bottom = 0.1)
 ```
 
-## Submit
 
-```{=html}
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
 :::
 
 # Data privacy
@@ -211,10 +176,8 @@ Who else gets to use that data?
 ::: columns
 ::: {.column width="30%"}
 ::: question
-Randomly select 10 words from the Gettysburg Address and calculate the mean number of letters in these 10 words.
-Submit your answer at [bit.ly/bit.ly/gburg-s24](https://bit.ly/gburg-s24).
+Students from a previous class randomly selected 10 words from the Gettysburg Address and calculated the mean number of letters in those 10 words.
 
-![](images/bit.ly_gburg-s24.png){fig-align="center" width="150"}
 :::
 :::
 
@@ -223,13 +186,9 @@ Submit your answer at [bit.ly/bit.ly/gburg-s24](https://bit.ly/gburg-s24).
 :::
 :::
 
-```{r}
-#| echo: false
 
-countdown(minutes = 3, left = 0, bottom = 0.1)
-```
 
-## Your responses
+## The responses
 
 ```{r}
 #| echo: false
@@ -243,6 +202,7 @@ ggplot(
   gburg,
   aes(x = avg)
 ) +
+  geom_vline(xintercept = mean(gburg$avg), color = "#325b74", linewidth = 2) +
   geom_histogram() +
   labs(
     x = "Submitted averages",
@@ -286,19 +246,12 @@ How do ethics play into this situation?
 Source: [Engadget - Google is working to remove gender bias in its translations](https://www.engadget.com/2018-12-07-google-remove-gender-bias-translations.html)
 :::
 
-## Stochastic parrots {.xxsmall}
+# Stochastic Parrots
 
-::: panel-tabset
-## Excerpt
+## What is meant by “stochastic parrots” in the paper title?
 
 [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://s10251.pcdn.co/pdf/2021-bender-parrots.pdf) (Bender et. al., 2021)
 
-> The past 3 years of work in NLP have been characterized by the development and deployment of ever larger language models, especially for English.
-> BERT, its variants, GPT-2/3, and others, most recently Switch-C, have pushed the boundaries of the possible both through architectural innovations and through sheer size.
-> Using these pretrained models and the methodology of fine-tuning them for specific tasks, researchers have extended the state of the art on a wide array of tasks as measured by leaderboards on specific benchmarks for English.
-> In this paper, we take a step back and ask: How big is too big?
-> What are the possible risks associated with this technology and what paths are available for mitigating those risks?
-> We provide recommendations including weighing the environmental and financial costs first, investing resources into curating and carefully documenting datasets rather than ingesting everything on the web, carrying out pre-development exercises evaluating how the planned approach fits into research and development goals and supports stakeholder values, and encouraging research directions beyond ever larger language models.
 
 ```{r}
 #| echo: false
@@ -306,16 +259,6 @@ Source: [Engadget - Google is working to remove gender bias in its translations]
 countdown(minutes = 5)
 ```
 
-## Question
-
-::: question
-What is meant by “stochastic parrots” in the paper title?
-:::
-
-```{=html}
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
-:::
 
 ## Machine Bias {.smaller}
 
@@ -381,15 +324,7 @@ How can an algorithm that doesn't use race as input data be racist?
 
 [Improving Ecological Inference by Predicting Individual Ethnicity from Voter Registration Record](https://imai.fas.harvard.edu/research/race.html) (Imran and Khan, 2016)
 
-> In both political behavior research and voting rights litigation, turnout and vote choice for different racial groups are often inferred using aggregate election results and racial composition.
-> Over the past several decades, many statistical methods have been proposed to address this ecological inference problem.
-> We propose an alternative method to reduce aggregation bias by predicting individual-level ethnicity from voter registration records.
-> Building on the existing methodological literature, we use Bayes’s rule to combine the Census Bureau’s Surname List with various information from geocoded voter registration records.
-> We evaluate the performance of the proposed methodology using approximately nine million voter registration records from Florida, where self-reported ethnicity is available.
-> We find that it is possible to reduce the false positive rate among Black and Latino voters to 6% and 3%, respectively, while maintaining the true positive rate above 80%.
-> Moreover, we use our predictions to estimate turnout by race and find that our estimates yields substantially less amounts of bias and root mean squared error than standard ecological inference estimates.
-> We provide open-source software to implement the proposed methodology.
-> The open-source software is available for implementing the proposed methodology.
+
 
 ## **wru** package
 
