@@ -23,16 +23,17 @@ ggplot2::theme_set(theme_gray(base_size = 16))
 ## Announcements
 
 -   Exam 1 in class next week on Tuesday – cheat sheet (1 page, both sides, hand-written or typed, must be prepared by you)
--   Exam 1 take home starts after class on Tuesday, due at 8 am on Friday (open resources, internet, etc., closed to other humans)
+-   Exam 1 take home starts after class on Tuesday, due at 11:59 PM on Friday (open resources, internet, etc., closed to other humans) - I nor the TA will be available to answer questions!!
 -   Next class: Exam 1 review – come with questions!
 
 ## Study tips for the exam
 
 -   Go over lecture materials and application exercises
 -   Review labs and feedback you've received so far
+  - In particular, please go over Lab 2 and make sure you understand every question.
 -   Do the exercises at the end of readings from both books
--   Do the exam review over
--   Come to class and office hours with questions!
+-   Do the exam review 
+-   Please come to class and office hours with questions! There are no stupid questions!
 
 
 
