@@ -22,8 +22,8 @@ ggplot2::theme_set(theme_gray(base_size = 16))
 
 ## Announcements
 
--   Exam 1 in class next week on Tuesday – cheat sheet (1 page, both sides, hand-written or typed, must be prepared by you)
--   Exam 1 take home starts after class on Tuesday, due at 11:59 PM on Friday (open resources, internet, etc., closed to other humans) - I nor the TA will be available to answer questions!!
+-   Exam 1 in class next week on Monday – cheat sheet (1 page, both sides, hand-written or typed, must be prepared by you)
+-   Exam 1 take home starts after class on **Monday**, due at 11:59 PM on **Thursday** (open resources, internet, etc., closed to other humans) - I nor the TA will be available to answer questions!!
 -   Next class: Exam 1 review – come with questions!
 
 ## Study tips for the exam

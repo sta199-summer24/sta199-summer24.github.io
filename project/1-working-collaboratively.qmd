@@ -26,17 +26,14 @@ All changes that are in "conflict" with each other need to get resolved explicit
 
 The goals of this milestone are as follows:
 
--   Pick a team name
+-   Meet your team
 -   Collaborate on GitHub with your teammates and resolve merge conflicts when they inevitably occur
 -   Discuss and write up your team contract
 -   Start thinking about your project proposal
 
-# Team name
+# Find your team
 
-Pick a team name.
-It can be straightforward, or it can be cheeky, but it must be [SFW](https://www.merriam-webster.com/dictionary/SFW).
-Let your TA know your team name asap.
-Once everyone's team names are in, your project repos will be created (give your TA a couple of minutes), and then you can continue with the rest of your task.
+Your team is located at [github.com/sta199-summer24/teams/](https://github.com/sta199-summer24/teams/blob/main/teams.csv). Find your teammates, sit with them, and get to know each other. 
 
 # Merge conflicts
 
