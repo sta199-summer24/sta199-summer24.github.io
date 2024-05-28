@@ -13,21 +13,17 @@ execute:
 ---
 
 
+## Announcements
 
-## Questions from last semester {.smaller}
+- No late work is accepted. Always turn something in! You can use the code chunk option `#| eval: FALSE` or (worst case scenario) turn in the .qmd file if your PDF won't render.
 
-**Is there a limit to a tibble size?**
+- The AEs are very similar to labs. If you can’t recall how to do something, return to the AE!
 
-No, a tibble (i.e., a data frame) can be any number of rows or columns.
-However when you print it, it will only print the first 10 rows and the columns that fit across the screen, document, etc.
+- **Render after every question** and don’t go on to the next question if you aren’t able to render- fix the problem first
 
-If you want to see more rows and columns, you can
+- Let's go over Lab 2, Q6a - don't overwrite the dataset!
 
--   open it in the data viewer with `View(df)`
 
--   explicitly print more rows with, e.g., `df |> print(n = 25)`
-
--   explicitly `select()` columns
 
 ## Options for a tibble {.smaller}
 
@@ -41,11 +37,11 @@ library(tidyverse)
 midwest
 ```
 
-## `print()`
+## `slice()`
 
 ```{r}
 midwest |>
-  print(n = 13)
+  slice(1:13)
 ```
 
 ## `select()`
