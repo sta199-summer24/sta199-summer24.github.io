@@ -1,0 +1,51 @@
+---
+title: "Render Issues Troubleshooting"
+author: "Betsy Bersson"
+format: pdf
+editor: visual
+---
+
+## Packages
+
+```{r}
+#| label: read-packages
+
+library(tidyverse)
+```
+
+## Fix all issues so that you can render the document!!
+
+```{r}
+#| label: make-density
+
+ggplot(midwest, aes(x=area)) +
+  geom_density()
+```
+```{r}
+#| label: subset-dataset
+
+midwest = midwest %>% 
+  select(-area)
+```
+
+```{r}
+#| label: make-histogram
+
+ggplot(midwest, aes(x=area)) +
+  geom_histogram()
+```
+
+```{r}
+#| label: make-boxplot
+
+ggplot(midwest, aes(x=area)) +
+  geom_boxplot()
+
+```{r}
+#| label: make-scatterplot
+
+ggplot(midwest, aes(x=area, y = percbelowpoverty)) +
+  geom_point()
+```
+
+
