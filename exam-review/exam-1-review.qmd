@@ -1,8 +1,8 @@
 ---
 title: "Exam 1 Review"
 format:
-  html: default
-  pdf: default
+  html: 
+    self-contained: true
 execute:
   echo: false
 ---

@@ -20,25 +20,35 @@ editor_options:
 library(countdown)
 library(tidyverse)
 library(ggthemes)
+library(openintro)
 ggplot2::theme_set(theme_gray(base_size = 16))
 ```
 
 
-## Packages
-
-```{r}
-#| label: load-packages
-#| message: false
-
-library(tidyverse)
-library(openintro)
-```
 
 ## Announcements
 
--   Exam format / flow
+-   Select pages on Gradescope- come to office hours if you aren't sure how.
+
+-   TA office hours this Sunday?
+
+-   Exam on Monday! 
+
+
+
+## Exam Announcements
 
 -   Academic dishonesty / Duke Community Standard
+
+- 1 hr 15 min for in class portion (70\% of exam 1 grade)- you may use a cheat sheet that you made yourself (handwritten or typed)
+
+- Take-home will be released after Lab (30\% of exam 1 grade)- no office hours next week!
+
+- See last class's slides for study tips.
+
+
+## Let's go through the render troubleshooting AE
+
 
 # Type coercion
 

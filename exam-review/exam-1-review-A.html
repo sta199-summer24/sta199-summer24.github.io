@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>AE 04: NYC flights + data wrangling</title>
+<title>Exam 1 Review</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,40 +18,6 @@ ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
 width: 0.8em;
 margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
-}
-
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-{ counter-reset: source-line 0; }
-pre.numberSource code > span
-{ position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-{ content: counter(source-line);
-position: relative; left: -1em; text-align: right; vertical-align: baseline;
-border: none; display: inline-block;
--webkit-touch-callout: none; -webkit-user-select: none;
--khtml-user-select: none; -moz-user-select: none;
--ms-user-select: none; user-select: none;
-padding: 0 4px; width: 4em;
-}
-pre.numberSource { margin-left: 3em; padding-left: 4px; }
-div.sourceCode
-{ }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -3075,7 +3041,8 @@ vertical-align: -.125em;
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">AE 04: NYC flights + data wrangling</h1>
+<h1 class="title">Exam 1 Review</h1>
+<p class="subtitle lead">Suggested answers</p>
 </div>
 
 
@@ -3092,283 +3059,46 @@ vertical-align: -.125em;
 </header>
 
 
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(nycflights13)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<section id="exercise-1" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-1">Exercise 1</h2>
-<p><strong>Your turn:</strong> Fill in the blanks:</p>
-<p>The <code>flights</code> data frame has ___ rows. Each row represents a ___.</p>
-</section>
-<section id="exercise-2" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-2">Exercise 2</h2>
-<p><strong>Your turn:</strong> What are the names of the variables in <code>flights</code>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="exercise-3---select" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-3---select">Exercise 3 - <code>select()</code></h2>
-<ul>
-<li>Demo: Make a data frame that only contains the variables <code>dep_delay</code> and <code>arr_delay</code>.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>Demo: Make a data frame that keeps every variable except <code>dep_delay</code>.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>Demo: Make a data frame that includes all variables between <code>year</code> through <code>dep_delay</code> (inclusive). These are all variables that provide information about the departure of each flight.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>Demo: Use the <code>select</code> helper <code>contains()</code> to make a data frame that includes the variables associated with the arrival, i.e., contains the string <code>&quot;arr\_&quot;</code> in the name.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="exercise-4---slice" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-4---slice">Exercise 4 - <code>slice()</code></h2>
-<ul>
-<li>Demo: Display the first five rows of the <code>flights</code> data frame.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>Demo: Display the last two rows of the <code>flights</code> data frame.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="exercise-5---arrange" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-5---arrange">Exercise 5 - <code>arrange()</code></h2>
-<ul>
-<li>Demo: Let’s arrange the data by departure delay, so the flights with the shortest departure delays will be at the top of the data frame.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>Question: What does it mean for the <code>dep_delay</code> to have a negative value?</li>
-</ul>
-<p>Add your response here.</p>
-<ul>
-<li>Demo: Arrange the data by descending departure delay, so the flights with the longest departure delays will be at the top.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li><strong>Your turn:</strong> Create a data frame that only includes the plane tail number (<code>tailnum</code>), carrier (<code>carrier</code>), and departure delay for the flight with the longest departure delay. What is the plane tail number (<code>tailnum</code>) for this flight?</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="exercise-6---filter" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-6---filter">Exercise 6 - <code>filter()</code></h2>
-<ul>
-<li>Demo: Filter for all rows where the destination airport is RDU.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>Demo: Filter for all rows where the destination airport is RDU and the arrival delay is less than 0.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li><strong>Your turn:</strong> Describe what the code is doing in words.</li>
-</ul>
-<p>Add response here.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>flights <span class="sc">|&gt;</span></span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(</span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    dest <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">&quot;RDU&quot;</span>, <span class="st">&quot;GSO&quot;</span>),</span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>    arr_delay <span class="sc">&lt;</span> <span class="dv">0</span> <span class="sc">|</span> dep_delay <span class="sc">&lt;</span> <span class="dv">0</span></span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 6,203 × 19
-    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
-   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
- 1  2013     1     1      800            810       -10      949            955
- 2  2013     1     1      832            840        -8     1006           1030
- 3  2013     1     1      851            851         0     1032           1036
- 4  2013     1     1      917            920        -3     1052           1108
- 5  2013     1     1     1024           1030        -6     1204           1215
- 6  2013     1     1     1127           1129        -2     1303           1309
- 7  2013     1     1     1157           1205        -8     1342           1345
- 8  2013     1     1     1317           1325        -8     1454           1505
- 9  2013     1     1     1449           1450        -1     1651           1640
-10  2013     1     1     1505           1510        -5     1654           1655
-# ℹ 6,193 more rows
-# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,
-#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,
-#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
-</div>
-</div>
-<p><strong>Hint:</strong> Logical operators in R:</p>
-<table class="table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 79%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">operator</th>
-<th style="text-align: left;">definition</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><code>&lt;</code></td>
-<td style="text-align: left;">is less than?</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><code>&lt;=</code></td>
-<td style="text-align: left;">is less than or equal to?</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><code>&gt;</code></td>
-<td style="text-align: left;">is greater than?</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><code>&gt;=</code></td>
-<td style="text-align: left;">is greater than or equal to?</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><code>==</code></td>
-<td style="text-align: left;">is exactly equal to?</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><code>!=</code></td>
-<td style="text-align: left;">is not equal to?</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><code>x &amp; y</code></td>
-<td style="text-align: left;">is x AND y?</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><code>x | y</code></td>
-<td style="text-align: left;">is x OR y?</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><code>is.na(x)</code></td>
-<td style="text-align: left;">is x NA?</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><code>!is.na(x)</code></td>
-<td style="text-align: left;">is x not NA?</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><code>x %in% y</code></td>
-<td style="text-align: left;">is x in y?</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><code>!(x %in% y)</code></td>
-<td style="text-align: left;">is x not in y?</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><code>!x</code></td>
-<td style="text-align: left;">is not x? (only makes sense if <code>x</code> is <code>TRUE</code> or <code>FALSE</code>)</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="exercise-7---count" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-7---count">Exercise 7 - <code>count()</code></h2>
-<ul>
-<li>Demo: Create a frequency table of the destination locations for flights from New York.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>Demo: In which month was there the fewest number of flights? How many flights were there in that month?</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li><strong>Your turn:</strong> On which date (month + day) was there the largest number of flights? How many flights were there on that day?</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="exercise-8---mutate" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-8---mutate">Exercise 8 - <code>mutate()</code></h2>
-<ul>
-<li>Demo: Convert <code>air_time</code> (minutes in the air) to hours and then create a new variable, <code>mph</code>, the miles per hour of the flight.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li><strong>Your turn:</strong> First, count the number of flights each month, and then calculate the proportion of flights in each month. What proportion of flights take place in July?</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>Demo: Create a new variable, <code>rdu_bound</code>, which indicates whether the flight is to RDU or not. Then, for each departure airport (<code>origin</code>), calculate what proportion of flights originating from that airport are to RDU.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="exercise-9---summarize" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-9---summarize">Exercise 9 - <code>summarize()</code></h2>
-<ul>
-<li>Demo: Find mean arrival delay for all flights.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="exercise-10---group_by" class="level2">
-<h2 class="anchored" data-anchor-id="exercise-10---group_by">Exercise 10 - <code>group_by()</code></h2>
-<ul>
-<li>Demo: Find mean arrival delay for for each month.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li><strong>Your turn:</strong> What is the median departure delay for each airports around NYC (<code>origin</code>)? Which airport has the shortest median departure delay?</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="additional-practice" class="level1">
-<h1>Additional Practice</h1>
-<p>Try these on your own, either in class if you finish early, or after class.</p>
 <ol type="1">
-<li>Create a new dataset that only contains flights that do not have a missing departure time. Include the columns <code>year</code>, <code>month</code>, <code>day</code>, <code>dep_time</code>, <code>dep_delay</code>, and <code>dep_delay_hours</code> (the departure delay in hours). <em>Hint: Note you may need to use <code>mutate()</code> to make one or more of these variables.</em></li>
+<li><p>b, c, f, g -</p>
+<ul>
+<li><p>The <code>blizzard_salary</code> dataset has 409 rows.</p></li>
+<li><p>The <code>percent_incr</code> variable is numerical and continuous.</p></li>
+<li><p>The <code>salary_type</code> variable is categorical.</p></li>
+</ul></li>
+<li><p>Figure 1 - A shared x-axis makes it easier to compare summary statistics for the variable on the x-axis.</p></li>
+<li><p>c - It’s a value higher than the median for hourly but lower than the mean for salaried.</p></li>
+<li><p>b - There is more variability around the mean compared to the hourly distribution.</p></li>
+<li><p>a, b, e - Pie charts and waffle charts are for visualizing distributions of categorical data only. Scatterplots are for visualizing the relationship between two numerical variables.</p></li>
+<li><p>c - <code>mutate()</code> is used to create or modify a variable.</p></li>
+<li><p>a - <code>&quot;Poor&quot;, &quot;Successful&quot;, &quot;High&quot;, &quot;Top&quot;</code></p></li>
+<li><p>b - Option 2. The plot in Option 1 shows the number of employees with a given performance rating for each salary type while the plot in Option 2 gives the proportion of employees with a given performance rating for each salary type. In order to assess the relationship between these variables (e.g., how much more likely is a Top rating among Salaried vs. Hourly workers), we need the proportions, not the counts.</p></li>
+<li><p>There may be some <code>NA</code>s in these two variables that are not visible in the plot.</p></li>
+<li><p>The proportions under Hourly would go in the Hourly bar, and those under Salaried would go in the Salaried bar.</p></li>
+<li><p>c - <code>filter(salary_type != &quot;Hourly&quot; &amp; performance_rating == &quot;Poor&quot;)</code> - There are 5 observations for <strong>“not Hourly”</strong> <strong>“and”</strong> Poor.</p></li>
+<li><p>a - <code>arrange()</code> - The result is arranged in increasing order of <code>annual_salary</code>, which is the default for <code>arrange()</code>.</p></li>
+<li><p>c, d, e, f.</p></li>
+<li><p>Part 1: The following should be fixed:</p>
+<ul>
+<li><p>There should be a <code>|</code> after <code>#</code> before <code>label</code></p></li>
+<li><p>There should be a <code>:</code> after label, not <code>=</code></p></li>
+<li><p>There shouldn’t be a space in the chunk label, it should be <code>plot-blizzard</code></p></li>
+<li><p>There should be spaces after commas in the code</p></li>
+<li><p>There should be spaces on both sides of <code>=</code> in the code</p></li>
+<li><p>There should be a space before <code>+</code></p></li>
+<li><p><code>geom_boxplot()</code> should be on the next line and indented</p></li>
+<li><p>There should be a <code>+</code> at the end of the <code>geom_boxplot()</code> line</p></li>
+<li><p><code>labs()</code> should be indented</p></li>
+</ul>
+<p>Part 2: The warning is caused by <code>NA</code> in the data. It means that 39 observations were <code>NA</code>s and are not plotted/represented on the plot.</p></li>
+<li><p>Part 1:</p>
+<ol type="1">
+<li>Render: Run all of the code and render all of the text in the document and produce an output.</li>
+<li>Commit: Take a snapshot of your changes in Git with an appropriate message.</li>
+<li>Push: Send your changes off to GitHub.</li>
 </ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ol start="2" type="1">
-<li>For each airplane (uniquely identified by <code>tailnum</code>), use a <code>group_by()</code> paired with <code>summarize()</code> to find the sample size, mean, and standard deviation of flight distances. Then include only the top 5 and bottom 5 airplanes in terms of mean distance traveled per flight in the final data frame.</li>
+<p>Part 2: c - Rendering or committing isn’t sufficient to send your changes to your GitHub repository, a push is needed. A pull is also not needed to view the changes in the browser.</p></li>
 </ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># add code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
 
 </main>
 <!-- /main column -->

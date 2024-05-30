@@ -172,7 +172,7 @@ flights |>
 | `==`          | is exactly equal to?                                     |
 | `!=`          | is not equal to?                                         |
 | `x & y`       | is x AND y?                                              |
-| `x \| y`      | is x OR y?                                               |
+| `x | y`      | is x OR y?                                               |
 | `is.na(x)`    | is x NA?                                                 |
 | `!is.na(x)`   | is x not NA?                                             |
 | `x %in% y`    | is x in y?                                               |
