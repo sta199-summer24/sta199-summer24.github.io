@@ -20,7 +20,7 @@ social: false # includes social icons at the bottom of the page
 - Lab: M/Thu 2:45 - 4:00 PM at Perkins LINK 087 (Classroom 3)
 - Office Hours:
   - M/Thu 5:00-6:00 PM at Old Chem 223B (EB)
-  - W 5:15-7:15 PM at Old Chem 203B (SW)
+  - Sunday 4:00-6:00 PM at Old Chem 203B (SW)
 
 <h3> Links </h3>
 
