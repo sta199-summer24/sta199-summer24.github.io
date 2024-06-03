@@ -25,7 +25,13 @@ ggplot2::theme_set(theme_gray(base_size = 16))
 ```
 
 
+## Tips for take-home exam
 
+- **Do not discuss the take home exam with friends **
+- Render to PDF after answering every sub-question.
+- After you render, always look at the PDF to make sure the output is what you expect. 
+- Push your work to github after every question.
+- If you feel lost, refer to your AEs and Labs! Try to find a similar question to reference.
 
 
 
