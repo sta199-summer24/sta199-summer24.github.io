@@ -27,23 +27,13 @@ ggplot2::theme_set(theme_gray(base_size = 16))
 
 
 
-## Project workflow preview
 
-::: columns
-::: {.column width="50%"}
-![](images/project-repo.png)
-:::
 
-::: {.column width="50%"}
-![](images/project-website.png)
-:::
-:::
+## Project workflow and grading
 
-and a brief demo!
+- Four milestones
 
-## Project grading
-
--   Outlined at <https://sta199-summer24.github.io/project/>.
+-   Details outlined at <https://sta199-summer24.github.io/project/>.
 
 -   Each milestone has points associated with it.
 
@@ -115,8 +105,10 @@ What "data moves" do we need to go from the original, non-tidy data to this, tid
 -   Work on Part 2 in `ae-08-data-import.qmd`.
 :::
 
-# Wrap up
+## Application exercise: `ae-09` {.smaller}
 
-## Exams
+::: appex
+-  Finish ae-09 before end of class.
+:::
 
-![](images/exam-1-pass-back.png){fig-align="center" width="800"}
+
