@@ -171,62 +171,6 @@ Who else gets to use that data?
 
 # Algorithmic bias
 
-## Gettysburg address {.smaller}
-
-::: columns
-::: {.column width="30%"}
-::: question
-Students from a previous class randomly selected 10 words from the Gettysburg Address and calculated the mean number of letters in those 10 words.
-
-:::
-:::
-
-::: {.column width="70%"}
-![](images/getty.jpg){fig-align="center"}
-:::
-:::
-
-
-
-## The responses
-
-```{r}
-#| echo: false
-
-library(googlesheets4)
-library(tidyverse)
-gs4_deauth()
-gburg <- read_sheet("https://docs.google.com/spreadsheets/d/1It4d1yTzw17ocKwcbjs8gAGI6o0CHfcL5cW6xdMG1WM/edit?usp=sharing")
-names(gburg) <- c("timestamp", "avg")
-ggplot(
-  gburg,
-  aes(x = avg)
-) +
-  geom_vline(xintercept = mean(gburg$avg), color = "#325b74", linewidth = 2) +
-  geom_histogram() +
-  labs(
-    x = "Submitted averages",
-    y = "Count"
-  )
-```
-
-## Comparison to "truth"
-
-```{r}
-#| echo: false
-
-ggplot(
-  gburg,
-  aes(x = avg)
-) +
-  geom_histogram() +
-  geom_vline(xintercept = 4.22, color = "#FF3E41", linewidth = 2) +
-  geom_vline(xintercept = mean(gburg$avg), color = "#325b74", linewidth = 2) +
-  labs(
-    x = "Submitted averages",
-    y = "Count"
-  )
-```
 
 ## Garbage in, garbage out
 
@@ -320,44 +264,3 @@ How can an algorithm that doesn't use race as input data be racist?
 :::
 :::
 
-## Predicting ethnicity {.xxsmall}
-
-[Improving Ecological Inference by Predicting Individual Ethnicity from Voter Registration Record](https://imai.fas.harvard.edu/research/race.html) (Imran and Khan, 2016)
-
-
-
-## **wru** package
-
-The said “source software” is the wru package: <https://github.com/kosukeimai/wru>.
-
-::: question
-Do you have any ethical concerns about installing this package?
-:::
-
-## **wru** package {.smaller}
-
-::: question
-Was the publication of this model ethical?
-Does the open-source nature of the code affect your answer?
-Is it ethical to use this software?
-Does your answer change depending on the intended use?
-:::
-
-```{r}
-#| cache: true
-#| message: false
-
-library(wru)
-predict_race(voter.file = voters, surname.only = TRUE) |>
-  select(surname, contains("pred"))
-```
-
-## **wru** package {.smaller}
-
-```{r}
-#| cache: true
-
-me <- tibble(surname = "Rundel")
-
-predict_race(voter.file = me, surname.only = TRUE)
-```
