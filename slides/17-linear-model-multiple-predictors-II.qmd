@@ -1,7 +1,7 @@
 ---
 title: "Linear regression with a multiple predictors II"
 subtitle: "Lecture 17"
-date: "June 6, 2024"
+date: "June 10, 2024"
 format: 
   revealjs:
     self-contained: true
@@ -22,6 +22,34 @@ library(tidyverse)
 ggplot2::theme_set(theme_gray(base_size = 16))
 ```
 
+## Announcements
+
+- June 12 is the last day to withdraw from the class.
+- If you are struggling, please attend office hours and ask questions on Ed!
+- Feel free to ask questions regarding Exam 1 on Ed.
+
+## Lab 4 recap- interpreting log() response {.smaller}
+
+Goal: Interpret the coefficients based on the following regression:
+
+$$
+\log(Y) = \beta_0 + \beta_1 x_1 + \beta_2 x_2 +\cdots.
+$$
+We don't want our interpretation based on the $\log()$ scale:
+
+$$
+e^{\log(Y)} = Y = e^{ \beta_0} e^{ \beta_1 x_1}e^{ \beta_2 x_2 }e^{ \cdots}.
+$$
+So, say we want to interpret $\beta_2$ where $x_2$ is a categorical group membership variable:
+$$
+Y = e^{ \beta_0} e^{ \beta_1 x_1}\color{red}{e^{ \beta_2 \times 1 }}e^{ \cdots}.
+$$
+
+## Application exercise: `ae-12` {.smaller}
+
+::: appex
+-   Let's finish AE-12!
+:::
 
 
 # Model selection and overfitting

@@ -1,15 +1,17 @@
 ---
 title: "Logistic regression"
 subtitle: "Lecture 19"
-date: "March 28, 2024"
+date: "June 11, 2024"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
+    self-contained: true
+    footer: "[🔗 sta199-summer24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/59071/discussion/)"
+execute: 
+  echo: true
 editor_options: 
   chunk_output_type: console
 ---
 
-# Warm up
 
 ```{r}
 #| echo: false
@@ -21,79 +23,11 @@ library(openintro)
 ggplot2::theme_set(theme_gray(base_size = 16))
 ```
 
-## While you wait for class to begin...
-
-::: nonincremental
-Any questions from prepare materials?
-:::
-
-```{=html}
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
-## Duke Community Standard {.smaller}
-
-Duke University is a community dedicated to scholarship, leadership, and service and to the principles of honesty, fairness, respect, and accountability.
-Citizens of this community commit to reflect upon and uphold these principles in all academic and nonacademic endeavors, and to protect and promote a culture of integrity.
-
-To uphold the Duke Community Standard:
-
--    I will not lie, cheat, or steal in my academic endeavors;
--    I will conduct myself honorably in all my endeavors; and
--    I will act if the Standard is compromised.
-
-<https://trinity.duke.edu/undergraduate/academic-policies/community-standard-student-conduct>
-
-## Duke Community Standard {.smaller}
-
-"Duke University has high expectations for students’ scholarship and conduct. In accepting admission, students indicate their willingness to subscribe to and be governed by the rules and regulations of the university, which flow from the Duke Community Standard. These policies reflect the Duke Community Standard’s fundamental values—**honesty, fairness, respect, and accountability**. Undergraduates acknowledge the right of the university to take disciplinary action, including suspension or expulsion, for failure to abide by the regulations or for other conduct adjudged unsatisfactory or detrimental to the university community.  Students and groups may be held accountable for any violation of university policy that may or may not be included in this guide, whether on or off campus."
-
-<https://trinity.duke.edu/undergraduate/academic-policies/community-standard-student-conduct>
-
-## Basic guidelines {.smaller}
-
-> Be a Good Human
-
-::: incremental
--   Use electronic devices for things related to coursework only and in a way that does not distract your classmates
-
-    -   No videos on cell phones
-
-    -   No phone calls!
-
--   Take off your headphones
-
-    -   If you need an accommodation for wearing headphones in class, reach out to SDAO to get this offcially approved
-
--   Keep chatter to "your turn" portions or limited to clarification questions
-
--   If you have a guest in class, make sure they are aware of the DCS and take responsibility for their behaviour
-:::
 
 ## Announcements {.smaller}
 
--   Peer eval 2 is due Sunday night, results will be published on Monday
+-   Please be going through all prepare materials. The class is based on the understanding that you are consuming these materials. 
 
--   Lab 6 is due on Monday:
-
-    -   **Render your document.** If your code is running off the page so we can't see your entire code, we will not evaluate any of it.
-        The question will automatically receive a 0.
-        This is something you can and should verify before you turn in your work.
-
-    -   If you're using functions that are not introduced in the course materials, you **must cite your sources**.
-        Failure to do so is a violation of the Duke Community Standard and will be treated as such.
-
--   Lab 7 will cover material from this week and next week.
-    Start to working through prepare materials between now and Monday.
-
-# From last time
-
-## Recap: `ae-13-modeling-loans`
-
--   What is the practical difference between a model with parallel and non-parallel lines?
-
--   What is the definition of R-squared?
-
--   Why do we choose models based on adjusted R-squared and not R-squared?
 
 ## Predict interest rate...
 
@@ -187,30 +121,33 @@ $$
 
 . . .
 
-For each additional credit check, log of interest rate is predicted to be higher, on average, by 0.0236%.
+For each additional credit check, log of interest rate is predicted to be higher, on average, by 0.0236%. 
 
-## Slope {.smaller}
+- Note, the interpretation here is \textit{0.0236**%**} because the response variable is a percent.
+
+## Interpreting the coefficient on credit check {.smaller}
+
+All else constant, what is the effect of a **1 additional** credit check.
 
 $$
-log(interest~rate_{x+1}) - log(interest~rate_{x}) =  0.0236
+\widehat{log(interest~rate)} = 2.39 + 0.0236 \times (credit~checks + 1)
+$$
+
+$$
+\widehat{log(interest~rate)} = 2.39 + 0.0236 \times credit~checks +\mathbf{0.0236\times 1}
+$$
+
+
+. . .
+
+$$
+\widehat{interest~rate} = e^{2.39 }e^{ 0.0236 \times credit~checks}e^{ \mathbf{0.0236\times 1}}
 $$
 
 . . .
 
 $$
-log(\frac{interest~rate_{x+1}}{interest~rate_{x}}) = 0.0236
-$$
-
-. . .
-
-$$
-e^{log(\frac{interest~rate_{x+1}}{interest~rate_{x}})} = e^{0.0236}
-$$
-
-. . .
-
-$$
-\frac{interest~rate_{x+1}}{interest~rate_{x}} = 1.024
+e^{ \mathbf{0.0236\times 1}} = 1.024
 $$
 
 . . .
