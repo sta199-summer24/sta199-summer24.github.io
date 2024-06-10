@@ -1,15 +1,17 @@
 ---
 title: "Quantifying uncertainty with bootstrap intervals"
 subtitle: "Lecture 20"
-date: "April 2, 2024"
+date: "June 13, 2024"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
+    self-contained: true
+    footer: "[🔗 sta199-summer24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/59071/discussion/)"
+execute: 
+  echo: true
 editor_options: 
   chunk_output_type: console
 ---
 
-# Warm up
 
 ```{r}
 #| echo: false
@@ -21,19 +23,7 @@ library(openintro)
 ggplot2::theme_set(theme_gray(base_size = 16))
 ```
 
-## While you wait for class to begin...
 
-::: nonincremental
-Any questions from prepare materials?
-:::
-
-```{=html}
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
-## Announcements
-
--   Lab 7 (last lab) is due Monday 4/8 at 8 am
--   Have at least one team meeting this week to review feedback and make some progress on your lab for peer review after exam on Monday 4/15
 
 # Quantifying uncertainty
 
@@ -175,11 +165,6 @@ c.  We are 95% confident the true mean price per guest for Airbnbs in Asheville 
 
 d.  We are 95% confident the price per guest for an Airbnb in Asheville in this sample is between \$64.7 and \$89.6.
 
-### Submit
-
-```{=html}
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
 :::
 
 ## Leveraging tidymodels tools further
