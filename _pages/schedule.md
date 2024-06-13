@@ -41,7 +41,7 @@ Many thanks to [Dr. Mine &#199;etinkaya-Rundel](https://mine-cr.com/) for sharin
 |  | Lab: Exam 2 review |  | 📝 [exam 2 review](/exam-review/exam-2-review.html)  <br/>  ✅ [exam 2 review](/exam-review/exam-2-review-A.html)  |  |
 | Tu, June 18 | Lec: Communicating data science results effectively | 🎥 [Tips for effective data visualization](https://youtu.be/ZrifrBvFWgg)  <br/>  📘 [ims - chp 6](https://openintro-ims.netlify.app/explore-applications.html)  <br/>  📗 [r4ds - chp 10](https://r4ds.hadley.nz/eda)  <br/>  🎥 [Doing data science](https://youtu.be/b9lSW0kyqBg) | 🖥️ [slides 23](/slides/23-communicate.html)  <br/>  ⌨️ [ae 17](/ae/ae-17-effective-dataviz.html)  <br/>  🖥️ [slides 24](/slides/24-quarto.html)  <br/>  ⌨️ [ae 18](/ae/ae-18-second-to-last-ae.html) |  |
 | Wed, June 19 | <b> Juneteenth holiday </b> |  |  |  |
-| Thur, June 20 | Lec: <b> Exam 2 - In-class + take-home released </b> and Shiny app overview |  | 🖥️ [slides 25](/slides/25-wrapup-shiny.html)  <br/>  ⌨️ [ae 19](/ae/ae-19-last-ae.html) | AEs 16-19 due 6/23 by 11:59 PM |
+| Thur, June 20 | Lec: <b> Exam 2 - In-class + take-home released </b> and Shiny app overview |  | 🖥️ [slides 25](/slides/25-wrapup-shiny.html)  <br/>  ⌨️ [ae 19](/ae/ae-19-last-ae.html) | AEs 16-19 due 6/23 by 11:59 PM <br/> <b> Take-home exam 2 due SAT 6/22 at 11:59 PM </b> |
 |  | Lab: Project milestone 3 - Peer review  |  | 📓 [project milestone 3](/project/3-peer-review.html)  | due by end of class |
 | Mon, June 24 | Lec: TBD |  |  |  |
 |  | Lab: <b> Project milestone 4 - Project presentations</b> |  | 📓 [project milestone 4](/project/4-writeup-presentation.html) |  |
