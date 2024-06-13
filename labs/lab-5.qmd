@@ -233,17 +233,27 @@ c.  Calculate a 95% bootstrap confidence interval for the proportion of American
     Use 1000 iterations when creating your bootstrap distribution.
     Interpret this interval in context of the data.
 
-# Part 6 - Data science assessment
+# Part 6 - Let's explore a new data set
+
+For this part, we will be using the `iris` dataset, a very popular dataset in the `datasets` package.
 
 ## Question 9
 
-::: callout-important
-This question is graded out of 10 points.
-:::
 
-Take a data science assessment at <https://duke.qualtrics.com/jfe/form/SV_bPZS3LIKoYA0fL8>.
-Your assessment will be graded out of 10 points, and those points will be added to your score for the remaining points on this lab.
-There are no additional penalties for wrong answers, so please answer all questions.
+a. Using Google, learn about the dataset. Without writing any code, describe the dataset in 2-4 sentences. Hint: What variables are in the data? What are their units, if applicable? What does each row represent? Include links for your sources.
 
-Optionally, you can participate in the research study this assessment is a part of.
-I will not find out whether you participate in the study or not, your scores will be passed on to me by the research administrator regardless of your study participation.
+b. `glimpse()` the data.
+
+c. Visualize the relationship between `Sepal.Length`, `Petal.Length`, and `Species`. Ensure your plot has informative axis labels with units of measurement.
+
+## Question 10
+
+a. Fit a linear regression model with `Sepal.Length` as the response. Use an interaction effect with the predictors `Petal.Length` and `Species`. Display the tidy output.
+
+b. Write the linear regression equation (using Latex formatting).
+
+c. Interpret the intercept in the context of the problem.
+
+d. Write the linear regression equation for an iris belonging to the species Versicolor. Your final answer should be in slope/ intercept form with a single value for the coefficient on `Petal.Length` and a single value for the intercept.
+
+
