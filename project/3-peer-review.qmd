@@ -29,7 +29,7 @@ During the first \~30 minutes, make progress on your own project.
 
 -   Choose the dataset you want to work with.
 
--   Make progress on your analysis and write-up in `index.qmd`:
+-   Make progress on your analysis and write-up in `report.qmd`:
 
     -   At a minimum, write a plan that peers can give feedback on.
 
@@ -115,62 +115,22 @@ make_pairing_table <- function(df, section_no) {
       columns = section
     ) |>
     cols_label(
-      section = "Lab section",
       your_team_name = "Your team name",
       team_to_review = "Team to review"
     )
 }
+
+set.seed(123)
+teams = tibble(section = rep(1,4),your_team_name = paste0("team-",1:4),
+               team_to_review = paste0("team-",sample(1:4,4)))
 ```
 
-::: panel-tabset
-## L1 - 8:30 am
+
 
 ```{r}
 make_pairing_table(teams, 1)
 ```
 
-## L2 - 10:05 am
-
-```{r}
-make_pairing_table(teams, 2)
-```
-
-## L3 - 11:45 am
-
-```{r}
-make_pairing_table(teams, 3)
-```
-
-## L4 - 1:25 pm
-
-```{r}
-make_pairing_table(teams, 4)
-```
-
-## L11 - 1:25 pm
-
-```{r}
-make_pairing_table(teams, 11)
-```
-
-## L5 - 3:05 pm
-
-```{r}
-make_pairing_table(teams, 5)
-```
-
-## L6 - 4:40 pm
-
-```{r}
-make_pairing_table(teams, 6)
-```
-
-## L7 - 4:40 pm
-
-```{r}
-make_pairing_table(teams, 7)
-```
-:::
 
 # Grading
 
