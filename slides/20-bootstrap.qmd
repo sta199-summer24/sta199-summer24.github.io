@@ -38,6 +38,26 @@ loans <- loans_full_schema |>
   )
 ```
 
+
+# Upcoming Schedule
+
+## Exam 2 {.smaller}
+
+- Review: Next Monday 6/17 in lab- come with questions!
+
+- In-class : Next Thursday 6/20, for the first 1 hour 15 min
+
+- Take-home: Next Thursday after lab - **Saturday** 6/22 at 11:59 PM
+
+## Project progress
+
+- You should aim to make some progress on your project before lab on 6/20. At the **very least**: select a dataset and research question to work on; discuss meeting times before the final presentation on 6/24.
+
+- Milestone 3 (6/20) is a peer review session. The more you have completed, the more helpful the feedback you receive is!
+
+- Milestone 4 (6/24) is the final presentation and your final report is due at 11:59 PM. The final report should be at least 10 pages, not including code.
+
+
 # Recap
 
 ## Predict interest rate {.smaller}
