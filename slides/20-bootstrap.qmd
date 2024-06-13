@@ -21,9 +21,66 @@ library(tidyverse)
 library(tidymodels)
 library(openintro)
 ggplot2::theme_set(theme_gray(base_size = 16))
+
+loans <- loans_full_schema |>
+  mutate(
+    credit_util = total_credit_utilized / total_credit_limit,
+    bankruptcy = as.factor(if_else(public_record_bankrupt == 0, 0, 1)),
+    verified_income = droplevels(verified_income),
+    homeownership = str_to_title(homeownership),
+    homeownership = fct_relevel(homeownership, "Rent", "Mortgage", "Own")
+  ) |>
+  rename(credit_checks = inquiries_last_12m) |>
+  select(
+    interest_rate, loan_amount, verified_income, 
+    debt_to_income, credit_util, bankruptcy, term, 
+    credit_checks, issue_month, homeownership
+  )
 ```
 
+# Recap
 
+## Predict interest rate {.smaller}
+
+Recall the `loans` data from last class. We wish to predict the interest rate for a loan applicant.
+
+```{r}
+rate_util_home_fit <- linear_reg() |>
+  fit(interest_rate ~ credit_util + homeownership, 
+      data = loans)
+
+tidy(rate_util_home_fit)
+```
+
+## Interpreting a 1% increase in regression output {.smaller}
+
+
+What is the expected effect of a 1% increase in credit utilization for a renter?
+
+$$
+\begin{aligned}
+\widehat{interest\;rate} = {}& 9.93 +5.34 \times \big(credit \; utilization + 1/100 \big)\\
+= {}& 9.93 +5.34 \times credit \; utilization + 5.34 \times 1/100\\
+= {}& 9.93 +5.34 \times credit \; utilization + 0.0534
+\end{aligned}
+$$
+- All else held constant, for each additional percent credit utilization is higher, interest rate is predicted to be higher, on average, by 0.0534%.
+
+## False positive rate
+
+We may want to **minimize** the number of false positives, that is, true negatives that are predicted to be positive. A way to measure this is with a false positive rate defined as follows:
+
+$$ 
+false\;positive\;rate = \frac{\# false\; positives}{\# all \;true \;negatives}
+$$
+
+## False negative rate
+
+False negatives, true positives that are predicted to be negative, may also be undesirable. The false negative rate is defined as follows:
+
+$$ 
+false\;negative\;rate = \frac{\# false\; negatives}{\# all \;true \;positives}
+$$
 
 # Quantifying uncertainty
 
