@@ -1,47 +1,29 @@
 ---
 title: "Communicating data science results effectively"
 subtitle: "Lecture 23"
-date: "April 17, 2024"
+date: "June 18, 2024"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
+    self-contained: true
+    footer: "[🔗 sta199-summer24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/59071/discussion/)"
+execute: 
+  echo: true
 editor_options: 
   chunk_output_type: console
 ---
 
-# Warm up
-
-## While you wait for class to begin...
-
-::: task
-Any questions about the project?
-:::
-
-```{=html}
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
 ## Announcements {.smaller}
 
--   My office hours this week: Office hours today 1:30 - 2:30 pm today
+-   No Thursday office hours
 
--   Remaining due dates:
 
-    ::: incremental
-    -   Project presentations next Monday in lab -- all team members must be present.
+## Take-home exam 2 tips
 
-    -   Project write-up and final repo due 8 am Wed, April 24 (you get an extra day!) -- you will lose access to your repo at this time.
+-   Make sure your take-home exam can render! 
+-   To be extra cautious: render after after starting a new code chunk! Do this every time!
+-   If you aren't sure how to complete a problem, break it into sub-steps that you do know how to complete.
+-   Reference your AEs!
 
-    -   Remaining application exercises due on the usual schedule.
-    :::
-
-## "Extra credit"
-
--   Put any additional time into your project, MUCH HIGHER return on investment than any extra credit I can offer
-
--   But...
-    AEs in class on Thursday and next Tuesday will be just you checking in saying you're here.
-    You'll get to practice pull, commit, render, push, but no real content needed.
-    So that's two AEs you can get credit for simply by being here and doing no additional work than pull, commit (a tiny change), render, push during class.
 
 ## Project {.smaller}
 

@@ -1,15 +1,17 @@
 ---
 title: "Making decisions with randomization tests"
 subtitle: "Lecture 21"
-date: "April 4, 2024"
+date: "June 17, 2024"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
+    self-contained: true
+    footer: "[🔗 sta199-summer24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/59071/discussion/)"
+execute: 
+  echo: true
 editor_options: 
   chunk_output_type: console
 ---
 
-# Warm up
 
 ```{r}
 #| echo: false
@@ -21,34 +23,20 @@ library(openintro)
 ggplot2::theme_set(theme_gray(base_size = 16))
 ```
 
-## While you wait for class to begin...
 
-::: appex
--   Go back to your project called `ae`.
--   If there are any uncommitted files, commit them, and push.
--   Finish working on `ae-15-duke-forest-bootstrap.qmd`.
-:::
 
-## Trivia
-
-::: nonincremental
-What is this visualization about?
-:::
-
-![](images/airbnb-april-7.jpg){fig-align="center"}
 
 ## Announcements
 
--   Have at least one team meeting this week to review feedback and make some progress on your lab for peer review after exam on Monday 4/15
-
-## From last time: `ae-15-duke-forest-bootstrap`
-
-::: appex
-Review last part of `ae-15-duke-forest-bootstrap.qmd`.
-:::
+-   Exam 2 on Thursday!
+-   Take-home exam 2 will be released after lab on Thursday and due June 6/22 at 11:59 PM.
+-   Project final presentation during lab on 6/24. 
+-   Project final report due 6/24 at 11:59 PM.
+-   All information regarding the lab is on the course webpage: [sta199-summer24.github.io/project/](https://sta199-summer24.github.io/project/)
 
 ## Goals {.smaller}
 
+-   Review model comparison
 -   Review constructing confidence intervals via bootstrapping
 -   Hypothesis testing, p-values, and making conclusions
     -   Test a claim about a population parameter
@@ -56,7 +44,87 @@ Review last part of `ae-15-duke-forest-bootstrap.qmd`.
     -   Calculate and interpret the p-value
     -   Use the p-value to draw conclusions in the context of the data and the research question
 
-# Review
+# Review 1- Comparing models
+
+## Model 1 {.smaller}
+
+First, predict `mpg` using `gear` as the only predictor.
+
+```{r}
+mtcars_fit <- linear_reg() |>
+  fit(mpg ~ gear, data = mtcars) 
+
+tidy(mtcars_fit)
+
+```
+
+
+The regression equation is:
+$$
+\widehat{mpg} =       5.62  + ( 3.92)\times gear
+$$
+
+## Model 1 evaluation {.smaller}
+
+```{r}
+augment(mtcars_fit, new_data = mtcars) %>% 
+  summarize(SSR = sum(.resid^2))
+
+glance(mtcars_fit)$r.squared
+
+glance(mtcars_fit)$adj.r.squared
+```
+
+
+Interpretation of R-squared: `{r} round(glance(mtcars_fit)$r.squared,4)*100`\% of the variability in observed in mpg is explained by this regression model.
+
+- What is the goal of a regression model? How much \% of the variability do we want to explain?
+
+
+## Model 2 {.smaller}
+
+First, predict `mpg` with an additive model including `gear` and `disp` as predictors.
+
+```{r}
+mtcars_fit_2 <- linear_reg() |>
+  fit(mpg ~ gear + disp, data = mtcars) 
+
+tidy(mtcars_fit_2)
+
+```
+
+
+The regression equation is:
+$$
+\widehat{mpg} =   29.1  + (0.111)\times gear + (-0.0408)\times disp
+$$
+
+## Model 2 evaluation {.smaller}
+
+```{r}
+augment(mtcars_fit_2, new_data = mtcars) %>% 
+  summarize(SSR = sum(.resid^2))
+
+glance(mtcars_fit_2)$r.squared
+
+glance(mtcars_fit_2)$adj.r.squared
+```
+
+
+## Model comparison with adjusted R-squared {.smaller}
+
+Model 2 is more complex, and, as such, it is guaranteed to have a larger R-squared value than model 1. Is it actually a **better** model? 
+
+
+Let's compare adjusted R-squared, which includes a penalty for including more predictors.
+
+
+- Model 1: `{r} glance(mtcars_fit)$adj.r.squared`
+
+- Model 2: `{r} glance(mtcars_fit_2)$adj.r.squared`
+
+
+# Review 2
 
 ## Bootstrap intervals {.smaller}
 
