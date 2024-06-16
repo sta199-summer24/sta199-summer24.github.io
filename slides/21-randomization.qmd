@@ -31,7 +31,7 @@ ggplot2::theme_set(theme_gray(base_size = 16))
 -   Exam 2 on Thursday!
 -   Take-home exam 2 will be released after lab on Thursday and due June 6/22 at 11:59 PM.
 -   Project final presentation during lab on 6/24. 
--   Project final report due 6/24 at 11:59 PM.
+-   Project final report due **6/25** at 11:59 PM. **Submit your report by pushing it to github.**
 -   All information regarding the lab is on the course webpage: [sta199-summer24.github.io/project/](https://sta199-summer24.github.io/project/)
 
 ## Goals {.smaller}
