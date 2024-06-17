@@ -15,6 +15,7 @@ editor_options:
 ## Announcements {.smaller}
 
 -   No Thursday office hours
+-   Teammate evaluation for your group project is due tonight by 11:59 PM. It is under the **Quiz** tab on Canvas. There will be time allotted at the end of class. This will be used, along with other factors, to determine your **Teamwork** score for the project.
 
 
 ## Take-home exam 2 tips
