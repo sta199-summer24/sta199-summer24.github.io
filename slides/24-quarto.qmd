@@ -25,6 +25,8 @@ editor_options:
 
 ## Project presentations on Monday! 🥳 {.smaller}
 
+- **Do not discuss the take home exam if you meet to work on the project.** Please keep the Duke Community Standard in mind. 
+
 -   Make sure your presentation is pushed to your GitHub repo before your lab section.
 
 -   Get to lab on time, 5 minutes prior if possible -- **all team members must be present in class and take part in the presentation + Q&A**
@@ -33,17 +35,33 @@ editor_options:
 
 -   Deliver your 5-minute presentation 
 
--   Answer questions during your own Q&A or ask questions to others.
+-   Answer questions during your own Q&A or ask questions to others. Participation will be noted.
 
--   Fill out feedback forms while you listen to others' presentations.
 
-## Project write-ups due Monday evening
+## Project write-ups due 6/25 at 11:59 PM
 
--   There's a good chance you'll be done with these on Monday as well
+-   There's a good chance you'll be done with these on Monday as well.
 
 -   But you might want to improve your write-up based on inspiration from other teams' presentations and/or ideas that came up during your Q&A.
 
 -   There is no Gradescope submission, just push your final edits to GitHub.
+
+- For the final report, make sure you suppress warnings, suppress code, and render the document to pdf. 
+
+- **Complete the teammate evaluation quiz by 6/25 at 11:59 PM on Canvas.**
+
+
+
+## Teammate evaluation feedback {.smaller}
+
+- Most everyone seems content with the group dynamics !!
+
+- One useful note from the survey- communicate with your teammates, even if you don't have positive results. For example, if you can't figure out how to do something, communicate this!
+
+
+
+
+
 
 # Questions from last time
 

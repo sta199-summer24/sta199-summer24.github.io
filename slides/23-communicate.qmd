@@ -38,7 +38,7 @@ The final report should be nicely formatted as a formal summary of your data ana
 -   Please read all documentation on the course website regarding the project. It is all contained under the `Project` tab.
 -   
 
-## Options you MUST add to the YAML of project.qmd  {.smaller}
+## Options you MUST add to the YAML of **report.qmd**  {.smaller}
 
 - To suppress warnings, to suppress the code, and to render your document to pdf:
 
