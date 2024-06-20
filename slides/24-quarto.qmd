@@ -38,7 +38,7 @@ editor_options:
 -   Answer questions during your own Q&A or ask questions to others. Participation will be noted.
 
 
-## Project write-ups due 6/25 at 11:59 PM
+## Project write-ups due 6/25 at 11:59 PM {.smaller}
 
 -   There's a good chance you'll be done with these on Monday as well.
 

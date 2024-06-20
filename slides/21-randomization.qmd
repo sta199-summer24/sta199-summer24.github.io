@@ -8,6 +8,7 @@ format:
     footer: "[🔗 sta199-summer24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/59071/discussion/)"
 execute: 
   echo: true
+  message: false
 editor_options: 
   chunk_output_type: console
 ---
@@ -15,7 +16,6 @@ editor_options:
 
 ```{r}
 #| echo: false
-#| message: false
 
 library(tidyverse)
 library(tidymodels)
