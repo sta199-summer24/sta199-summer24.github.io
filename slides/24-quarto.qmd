@@ -172,13 +172,8 @@ What classes do you recommend I take to continue my learning?
 -   Finalizing your report with `echo: false`.
 
 
-## Before you leave {.smaller}
 
-if you haven't yet done so...
+## Course Eval
 
-::: question
--   Go to your `ae` repo, and pull.
+![](images/QRcode_Duke_Watermark_Course_Evals_Adobe generated.png)
 
--   Make a change, any change, to `ae-18-second-to-last-ae.qmd`.
-    render, commit, and push.
-:::
