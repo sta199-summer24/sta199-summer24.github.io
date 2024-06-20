@@ -15,24 +15,46 @@ editor_options:
 ## Announcements {.smaller}
 
 -   No Thursday office hours
--   Teammate evaluation for your group project is due tonight by 11:59 PM. It is under the **Quiz** tab on Canvas. There will be time allotted at the end of class. This will be used, along with other factors, to determine your **Teamwork** score for the project.
-
+-   Teammate evaluation 1 for your group project is due tonight by 11:59 PM. It is under the **Quiz** tab on Canvas. There will be time allotted at the end of class. This will be used, along with other factors, to determine your **Teamwork** score for the project.
+-   A second teammate evaluation is due by 6/25 at 11:59 PM.
 
 ## Take-home exam 2 tips
 
 -   Make sure your take-home exam can render! 
--   To be extra cautious: render after after starting a new code chunk! Do this every time!
+-   To be extra cautious: render every time after starting a new code chunk!
 -   If you aren't sure how to complete a problem, break it into sub-steps that you do know how to complete.
--   Reference your AEs!
+-   Reference the AEs! Solutions are on the course website next to the green check marks.
+
+## Project Write-up Tips {.smaller}
+
+The final report should be nicely formatted as a formal summary of your data analysis. 
+
+
+- Any math notation should be properly formatted in mathmode.
+- Only include figures that are pertinent to your analysis.
+-   Do not include the URL for the data in the report. This should go in a formal `References` section.
+-   Do not `glimpse()` the data in the final report.
+-   No code should be printed to screen, but the project should be reproducible! For example, set seeds if you use randomization.
+-   Please read all documentation on the course website regarding the project. It is all contained under the `Project` tab.
+-   
+
+## Options you MUST add to the YAML of project.qmd  {.smaller}
+
+- To suppress warnings, to suppress the code, and to render your document to pdf:
+
+![](images/YAML_project.png)
+
 
 
 ## Project {.smaller}
 
--   Review peer evaluations left by your peers, implement updates as you see fit, close the issue once you review them.
+-   After Thursday, review peer evaluations left by your peers, implement updates as you see fit, close the issue once you review them.
 
 -   Have a clear plan for who is doing what, open issues on your repo, and assign them to individuals who can then close the issues as they finish a task.
 
--   Schedule at least one team meting between today and your presentation to practice your presentation together.
+-   Schedule at least one team meeting between today and your presentation to practice your presentation together.
+
+
 
 ::: task
 Any project questions?
@@ -40,7 +62,7 @@ Any project questions?
 
 # Effective communication
 
-## Take A Sad Plot & Make It Better
+## Take A Sad Plot & Make It Better {.smaller}
 
 ![](images/sad-plot-to-better.gif)
 
@@ -71,3 +93,20 @@ Source: [https://alison.netlify.app/rlm-sad-plot-better](alison.netlify.app/rlm-
 -   Communicate your main message directly in the plot labels
 -   Simplify before you call it done (a.k.a. "Before you leave the house, look in the mirror and take one thing off")
 :::
+
+## Reminders {.smaller}
+
+- Finish AE 16, exercise 12 and 13.
+- Finish AE 18.
+- Don't forget to push AEs 16-18 to github.
+- Complete Teammate Evaluation 1 before 11:59 PM tonight.
+
+## To do before end of class {.smaller}
+
+Meet with your team and,
+
+-   Read the Milestone 2 feedback.
+-   Decide on a data set and research question.
+-   Make a plan for when you'll meet to practice your presentation before 6/24.
+
+
