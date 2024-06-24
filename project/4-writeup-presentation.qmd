@@ -17,7 +17,7 @@ Before you finalize your write up, make sure the printing of code chunks is off 
 
 The mandatory components of the report are below.
 You are free to add additional sections as necessary.
-The report, including visualizations, should be no more than 10 pages long (if it were to be printed)**.** There is no minimum page requirement; however, you should comprehensively address all of the analysis in your report.
+The report, including visualizations, should be at least 10 pages long (if it were to be printed)**.** You should comprehensively address all of the analysis in your report.
 
 To check how many pages your report is, open it in your browser and go to File \> Print \> Save as PDF and review the number of pages.
 
@@ -27,7 +27,7 @@ The goal is to write a cohesive narrative that demonstrates a thorough and compr
 You are welcome to include an appendix with additional work at the end of the written report document; however, grading will largely be based on the content in the main body of the report.
 You should assume the reader will ***not*** see the material in the appendix unless prompted to view it in the main body of the report.
 The appendix should be neatly formatted and easy for the reader to navigate.
-It is not included in the 10-page limit.
+It is not included in the 10-page minimum
 
 Your written report is due on **June 25, 2024 at 11:59 PM**. Submit by pushing all work to github. No late work will be accepted.
 
@@ -94,7 +94,7 @@ Numerical results are displayed with a reasonable number of digits, and all visu
 All citations and links are properly formatted.
 If there is an appendix, it is reasonably organized and easy for the reader to find relevant information.
 All code, warnings, and messages are suppressed.
-The main body of the written report (not including the appendix) is no longer than 10 pages.
+The main body of the written report (not including the appendix) is at least 10 pages.
 
 ## Grading
 
